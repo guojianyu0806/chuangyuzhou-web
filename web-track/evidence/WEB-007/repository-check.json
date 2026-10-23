@@ -1,0 +1,47 @@
+{
+  "recordId": "WEB-007",
+  "checkedAt": "2026-10-23T15:30:50.197827+00:00",
+  "sourceBaseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+  "originalMainCommitsPreserved": 203,
+  "snapshotCommitsPreserved": 25,
+  "existingCommitMetadataUnchangedBySha": true,
+  "newMainCommitCount": 203,
+  "independentObjectStore": true,
+  "gitFsckPassed": true,
+  "sourceFilesUnchanged": 312,
+  "pdfPackageFilesUnchanged": [
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/.gitattributes",
+      "sha256": "07a2f41719cd55762e837e3598cd3ba067bc207a7ec63a46b2d86f609dc50acd"
+    },
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/build_pdf.py",
+      "sha256": "58cd26524858889da5c7bd719fa4f3f71d0a23cc9bcf5069e0d06f6d75e85530"
+    },
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/README.md",
+      "sha256": "b4caff7010ac498efd464aa7c72ddb424f8469d150dd9c4f918fe52d984d1c48"
+    },
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/SHA256SUMS.txt",
+      "sha256": "3171e9895b9c2e6aad1a2aa3ae6a72dad0daf1bbaaaff98b3ca33491e18b4017"
+    },
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/创宇宙_Web赛道技术文档_v1.pdf",
+      "sha256": "d607c4dbb96f65af92888233e92eb03d9b536ec8bad77de19b1d35be0367222c"
+    },
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/创宇宙_Web赛道技术文档_正文_v1.md",
+      "sha256": "0b8ecec577a224fc9f7d74b4f33908971ea018a2a3d17e0f2cce9eec8fae9d21"
+    }
+  ],
+  "privateTrackedPaths": [],
+  "originalRepository": {
+    "head": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+    "refsUnchanged": true,
+    "statusUnchanged": true,
+    "remoteUnchanged": true,
+    "existingModifiedFileHashesUnchanged": true,
+    "allOriginalCommitShasMatch": true
+  }
+}

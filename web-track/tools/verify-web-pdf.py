@@ -17,6 +17,19 @@ PDF = MATERIAL / '创宇宙_Web赛道技术文档_v1.pdf'
 MD = MATERIAL / '创宇宙_Web赛道技术文档_正文_v1.md'
 RECORD = ROOT / 'web-track/evidence/WEB-006'
 SOURCE_SHA = '2ac61cbbf7dcbcdf8e173d2ab0977667497fa4ca'
+LAYOUT_PATH = ROOT / 'WEB-REPOSITORY.json'
+LAYOUT = json.loads(LAYOUT_PATH.read_text(encoding='utf-8')) if LAYOUT_PATH.is_file() else None
+HISTORY_REF = LAYOUT['historyBaseline'] if LAYOUT else 'HEAD'
+if LAYOUT and not re.fullmatch(r'[0-9a-f]{40}', HISTORY_REF):
+    raise ValueError('Invalid fixed history baseline')
+
+
+def public_bytes(path):
+    if path.is_file():
+        return path.read_bytes()
+    if not LAYOUT:
+        raise FileNotFoundError(path)
+    return subprocess.run(['git','show',HISTORY_REF+':'+path.relative_to(ROOT).as_posix()],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
 
 SOURCES = {
     'E01': ['README.md','SOURCE-MANIFEST.json','RELEASE-CHANGES.json'],
@@ -95,13 +108,18 @@ def main():
     for evidence_id, paths in SOURCES.items():
         for value in paths:
             p=ROOT/value[1:] if value.startswith('@') else APP/value
-            require('source_exists_'+str(p.relative_to(ROOT)),p.is_file())
-            resolved.append({'id':evidence_id,'path':p.relative_to(ROOT).as_posix(),'sha256':sha(p.read_bytes())})
+            data=public_bytes(p)
+            require('source_exists_'+str(p.relative_to(ROOT)),bool(data))
+            resolved.append({'id':evidence_id,'path':p.relative_to(ROOT).as_posix(),'sha256':sha(data),'source':'working-tree' if p.is_file() else HISTORY_REF})
     protected=['delivery/2026-10-19_创宇宙正式提交_v2/创宇宙_作品介绍文档_正式提交版_v1.pdf','delivery/DEV-045/技术文档-正式提交版-v1.md','delivery/DEV-051/作品介绍文档-正文-v1.txt','README.md','web-track/materials/README.md']
     originals=[]
     for value in protected:
+        historical=subprocess.run(['git','show',HISTORY_REF+':'+value],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
+        if LAYOUT:
+            require('old_material_preserved_in_history_'+value,bool(historical))
+            originals.append({'path':value,'sha256':sha(historical),'preservedInHistory':HISTORY_REF})
+            continue
         local=(ROOT/value).read_bytes()
-        historical=subprocess.run(['git','show','HEAD:'+value],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
         # Git's text checkout may use CRLF while the blob stores LF. Preserve
         # and report actual working bytes; compare text only after newline
         # normalization, and require Git's own diff to be clean as well.
@@ -111,7 +129,12 @@ def main():
         originals.append({'path':value,'sha256':sha(local),'matchesHEADContent':True,'byteIdenticalToGitBlob':local==historical,'newlineNormalizationOnly':local!=historical})
     RECORD.mkdir(parents=True,exist_ok=True)
     result={'recordId':'WEB-006','checkedAt':datetime.now(timezone.utc).isoformat(),'pdf':PDF.relative_to(ROOT).as_posix(),'pdfSha256':sha(PDF.read_bytes()),'bytes':PDF.stat().st_size,'pages':len(pages),'sourceCommit':SOURCE_SHA,'metricsFromExistingTAP':metrics,'checks':checks,'textBounds':positions,'embeddedFonts':sorted(body_fonts),'links':links,'sourceEvidence':resolved,'protectedOldMaterials':originals,'visualReview':{'allPagesReviewed':True,'pages':list(range(1,16)),'latestEditedPagesRechecked':[9,12,15],'method':'Poppler PNG rendering and visual inspection'},'applicationTestsRerun':False,'realModelCalled':False}
-    (RECORD/'pdf-check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    report_path=ROOT/'web-track/evidence/WEB-007/pdf-check.json' if LAYOUT else RECORD/'pdf-check.json'
+    report_path.parent.mkdir(parents=True,exist_ok=True)
+    result['recordId']='WEB-007' if LAYOUT else 'WEB-006'
+    if LAYOUT:
+        result['visualReview']={'performedThisRun':False,'existingReview':'web-track/evidence/WEB-006.md','pdfUnchangedSinceReview':result['pdfSha256']=='d607c4dbb96f65af92888233e92eb03d9b536ec8bad77de19b1d35be0367222c'}
+    report_path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'ok':True,'pages':len(pages),'bytes':PDF.stat().st_size,'passedChecks':len(checks),'pdfSha256':result['pdfSha256']},ensure_ascii=False))
 
 

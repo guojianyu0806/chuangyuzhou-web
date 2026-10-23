@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "product": "创宇宙",
+  "trackId": 10037,
+  "layout": "independent-web",
+  "repository": "guojianyu0806/chuangyuzhou-web",
+  "application": "web-track/chuangyuzhou",
+  "historyBaseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+  "originalMainCommits": 203,
+  "historicalSnapshotsBranch": "codex/yuzhou-historical-snapshots",
+  "historicalSnapshotsHead": "8d3b22714badc7abc532f09e04f1fc02efdf4780",
+  "historicalSnapshotCommits": 25,
+  "privateRuntimeCopied": false
+}

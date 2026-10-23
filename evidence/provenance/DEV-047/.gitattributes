@@ -1,2 +1,0 @@
-# Preserve the exact exported patch bytes across Windows checkouts.
-initial-patches/*.patch.txt -text

@@ -3,6 +3,7 @@ import {existsSync,lstatSync,readFileSync,realpathSync,writeFileSync} from 'node
 import {createHash} from 'node:crypto';
 import {dirname,join,relative,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {execFileSync} from 'node:child_process';
 import {parseConfiguration} from '../chuangyuzhou/tools/start.mjs';
 import {COOKIE_NAME,DEFAULT_PORT,FRONTEND_ROOT,PROJECT_ROOT,RUNTIME_ROOT,resolveCompetitionOptions} from '../chuangyuzhou/yuzhou/runtime.mjs';
 import {verifySource} from '../chuangyuzhou/tools/verify-source.mjs';
@@ -12,6 +13,10 @@ const args=process.argv.slice(2);
 if(args.length!==2||args[0]!=='--record'||!/^WEB-\d{3}$/.test(args[1]))throw Error('Use --record WEB-002 for the current check; old stage reports are preserved.');
 const recordId=args[1];
 const repositoryRoot=resolve(trackRoot,'..');
+const layoutPath=join(repositoryRoot,'WEB-REPOSITORY.json');
+const independent=existsSync(layoutPath)?JSON.parse(readFileSync(layoutPath,'utf8')):null;
+const historyRef=independent?.historyBaseline;
+if(historyRef&&!/^[0-9a-f]{40}$/.test(historyRef))throw Error('Invalid fixed history baseline');
 const applicationRoot=join(trackRoot,'chuangyuzhou');
 const source=join(repositoryRoot,'submission','创宇宙-v2');
 const baseline=JSON.parse(readFileSync(join(trackRoot,'evidence/WEB-001/baseline-files.json'),'utf8'));
@@ -19,7 +24,7 @@ const hash=data=>createHash('sha256').update(data).digest('hex');
 const canonical=p=>process.platform==='win32'?p.toLowerCase():p;
 function ordinary(path){const info=lstatSync(path);assert.equal(info.isSymbolicLink(),false,path);if(info.isFile())assert.equal(info.nlink,1,path);assert.equal(canonical(realpathSync(path)),canonical(resolve(path)),path);}
 for(const directory of [repositoryRoot,trackRoot,applicationRoot,PROJECT_ROOT,FRONTEND_ROOT])ordinary(directory);
-for(const row of baseline.files){const path=join(source,row.path);ordinary(path);const data=readFileSync(path);assert.equal(data.length,row.bytes,row.path);assert.equal(hash(data),row.sha256,row.path);}
+for(const row of baseline.files){const path=join(source,row.path);let data;if(historyRef){data=execFileSync('git',['show',`${historyRef}:submission/创宇宙-v2/${row.path}`],{cwd:repositoryRoot,maxBuffer:16*1024*1024});}else{ordinary(path);data=readFileSync(path);}assert.equal(data.length,row.bytes,row.path);assert.equal(hash(data),row.sha256,row.path);}
 assert.equal(existsSync(join(applicationRoot,'.git')),false);
 assert.equal(existsSync(join(trackRoot,'.git')),false);
 assert.equal(PROJECT_ROOT,join(applicationRoot,'yuzhou'));
@@ -35,6 +40,6 @@ for(const port of [4397,4398,4399])assert.throws(()=>resolveCompetitionOptions({
 const current=verifySource();
 const manifest=JSON.parse(readFileSync(join(applicationRoot,'SOURCE-MANIFEST.json'),'utf8'));
 for(const row of manifest.files)ordinary(join(applicationRoot,row.path));
-const report={recordId,checkedAt:new Date().toISOString(),oldSourceFilesUnchanged:baseline.files.length,currentSourceFilesVerified:current.files,physicalFilesOnly:true,nestedGit:false,sharedRepository:true,origin:'http://127.0.0.1:4396',cookie:COOKIE_NAME,webMode:{publicOrigin:web.publicOrigin,secureCookie:web.secureCookie,listenerUnchanged:true,dataDirectoryUnchanged:true},runtimeDirectory:relative(repositoryRoot,RUNTIME_ROOT).replaceAll('\\','/'),priorPortsRejected:[4397,4398,4399],modelRequest:false};
+const report={recordId,checkedAt:new Date().toISOString(),oldSourceFilesUnchanged:baseline.files.length,oldSourceEvidence:historyRef?'fixed-git-history':'original-working-tree',historyBaseline:historyRef??null,currentSourceFilesVerified:current.files,physicalFilesOnly:true,nestedGit:false,sharedRepository:!independent,independentRepository:Boolean(independent),origin:'http://127.0.0.1:4396',cookie:COOKIE_NAME,webMode:{publicOrigin:web.publicOrigin,secureCookie:web.secureCookie,listenerUnchanged:true,dataDirectoryUnchanged:true},runtimeDirectory:relative(repositoryRoot,RUNTIME_ROOT).replaceAll('\\','/'),priorPortsRejected:[4397,4398,4399],modelRequest:false};
 writeFileSync(join(trackRoot,`evidence/${recordId}/isolation-check.json`),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report));

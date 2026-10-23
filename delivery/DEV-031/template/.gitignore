@@ -1,8 +1,0 @@
-.env
-.local/
-**/.cu-runtime/
-**/node_modules/
-**/__pycache__/
-**/*.pyc
-**/*.sqlite*
-**/*.db

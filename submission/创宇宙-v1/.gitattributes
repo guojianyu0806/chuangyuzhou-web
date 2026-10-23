@@ -1,2 +1,0 @@
-# Keep verified package bytes, including historical final blank lines.
-* -text whitespace=-blank-at-eof

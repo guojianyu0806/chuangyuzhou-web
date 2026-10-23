@@ -1,0 +1,27 @@
+{
+  "recordId": "WEB-007",
+  "checkedAt": "2026-10-23T15:29:30.876Z",
+  "oldSourceFilesUnchanged": 298,
+  "oldSourceEvidence": "fixed-git-history",
+  "historyBaseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+  "currentSourceFilesVerified": 312,
+  "physicalFilesOnly": true,
+  "nestedGit": false,
+  "sharedRepository": false,
+  "independentRepository": true,
+  "origin": "http://127.0.0.1:4396",
+  "cookie": "czb_web_yuzhou_session",
+  "webMode": {
+    "publicOrigin": "https://workbench.example.test",
+    "secureCookie": true,
+    "listenerUnchanged": true,
+    "dataDirectoryUnchanged": true
+  },
+  "runtimeDirectory": "web-track/chuangyuzhou/yuzhou/.cu-runtime",
+  "priorPortsRejected": [
+    4397,
+    4398,
+    4399
+  ],
+  "modelRequest": false
+}
