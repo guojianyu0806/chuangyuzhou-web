@@ -1,0 +1,54 @@
+{
+  "recordId": "WEB-007-publication",
+  "checkedAt": "2026-10-23 15:42:26 UTC",
+  "repository": "https://github.com/guojianyu0806/chuangyuzhou-web",
+  "visibility": "public",
+  "owner": "guojianyu0806",
+  "initialPublishedRefs": {
+    "refs/heads/main": "9d05c49195b86645a758de912851f9b52af3882e",
+    "refs/heads/codex/web-separation-baseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+    "refs/heads/codex/yuzhou-historical-snapshots": "8d3b22714badc7abc532f09e04f1fc02efdf4780"
+  },
+  "push": {
+    "atomic": true,
+    "force": false,
+    "historyRewritten": false,
+    "originalRepositoryPushed": false
+  },
+  "historyVerification": {
+    "main": 203,
+    "snapshots": 25,
+    "allCommitShasMatched": true,
+    "method": "Authenticated GitHub commits API, full pagination"
+  },
+  "publicFiles": [
+    {
+      "path": "README.md",
+      "status": 200,
+      "bytes": 2649,
+      "sha256": "0e811eeccefef3750c145328b89072325da7ec78c2358bb2e65b3b310a7c51ab"
+    },
+    {
+      "path": "web-track/materials/2026-10-23_创宇宙Web技术文档_v1/创宇宙_Web赛道技术文档_v1.pdf",
+      "status": 200,
+      "bytes": 439887,
+      "sha256": "d607c4dbb96f65af92888233e92eb03d9b536ec8bad77de19b1d35be0367222c"
+    }
+  ],
+  "originalRepository": {
+    "head": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+    "headsUnchanged": true,
+    "originUnchanged": true,
+    "statusFingerprintUnchanged": true,
+    "existingDirtyFileHashesUnchanged": true
+  },
+  "additionalVerificationAttempts": {
+    "freshBareClone": "Transfer made no progress; owned verification process stopped; not counted as success",
+    "anonymousCommitsApi": "Rate limited; replaced with authenticated connector pagination"
+  },
+  "applicationCodeChanged": false,
+  "applicationTestsRerun": false,
+  "modelRequest": false,
+  "websiteDeployed": false,
+  "competitionSubmitted": false
+}
