@@ -1,0 +1,82 @@
+{
+  "recordId": "WEB-010",
+  "checkedAt": "2026-10-28T15:54:08.9553075Z",
+  "repository": "https://github.com/guojianyu0806/chuangyuzhou-web",
+  "materialCommit": "69dd4c55d27aa0e3eca4bfff9674f49d901f3f99",
+  "applicationGuideCommit": "b7ec8b289fc4710181429ab9595c2c866ba095a3",
+  "businessImplementationCommit": "c71c0411245943198ce1db9d6276e211b4a28c94",
+  "remoteBeforeThisRun": "4bd1a55ffc59390df8707d94b18b549fef68491a",
+  "remoteRefsAfterMaterialPush": {
+    "refs/heads/codex/web-separation-baseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+    "refs/heads/codex/yuzhou-historical-snapshots": "8d3b22714badc7abc532f09e04f1fc02efdf4780",
+    "refs/heads/main": "69dd4c55d27aa0e3eca4bfff9674f49d901f3f99"
+  },
+  "githubConnectorBranchSHA": "69dd4c55d27aa0e3eca4bfff9674f49d901f3f99",
+  "anonymousDownloads": [
+    {
+      "path": "README.md",
+      "status": 200,
+      "bytes": 3624,
+      "sha256": "173f677c543cfda065b0f754bafcb571ab6c2ee56e5221ca8d8d59fe08da9838",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/chuangyuzhou/README.md",
+      "status": 200,
+      "bytes": 15182,
+      "sha256": "3013f141506844dccab4002184f1fc7d9d4a2ea29a1978ea7b66439d0be22044",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/.gitattributes",
+      "status": 200,
+      "bytes": 27,
+      "sha256": "07a2f41719cd55762e837e3598cd3ba067bc207a7ec63a46b2d86f609dc50acd",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/创宇宙_Web赛道技术文档_正文_v3.md",
+      "status": 200,
+      "bytes": 33692,
+      "sha256": "fc03884bb3c8d4d7e9923607775d8e8f239306f4a304875a2db859f7d5122646",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/创宇宙_Web赛道技术文档_v3.pdf",
+      "status": 200,
+      "bytes": 547753,
+      "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/build_pdf.py",
+      "status": 200,
+      "bytes": 12564,
+      "sha256": "b1f0ce9f52a3ae17d5f7e163e435090a94ee52bee9170917f35612371e437a88",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/README.md",
+      "status": 200,
+      "bytes": 2913,
+      "sha256": "496f9d55499cfb3b524d6a692c52f48f498ca542262f1f148e5aa97353ef1653",
+      "matchesLocal": true
+    },
+    {
+      "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/SHA256SUMS.txt",
+      "status": 200,
+      "bytes": 452,
+      "sha256": "b5be4904154947841163ea7bb61cd64d7f2bce75cfed9ff417514d060ef48176",
+      "matchesLocal": true
+    }
+  ],
+  "authenticationUsedForDownloads": false,
+  "initialDownloadAttempt": "Python urllib direct download ended with RemoteDisconnected before obtaining a response; no file result or success was recorded. System HttpClient retry produced the verified results above.",
+  "fixedHistoryBranchesUnchanged": true,
+  "forcePush": false,
+  "originalRepositoryWrite": false,
+  "websiteDeployed": false,
+  "competitionSubmitted": false,
+  "newModelCalls": 0,
+  "limitations": "This receipt verifies the material commit above. A later append-only commit stores this receipt; it does not self-certify its own future push."
+}
