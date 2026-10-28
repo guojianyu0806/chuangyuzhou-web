@@ -23,9 +23,10 @@
 - [本目录工作规则](AGENTS.md)
 - [当前团队与仓库更新记录](evidence/WEB-003.md)、[模型配置记录](evidence/WEB-002.md)与[独立目录建立记录](evidence/WEB-001.md)
 - [材料整理清单](materials/README.md)
-- [最新15页技术PDF v2与配套源稿](materials/2026-10-28_创宇宙Web技术文档_v2/README.md)、[保留的v1](materials/2026-10-23_创宇宙Web技术文档_v1/README.md)、[独立仓库记录](evidence/WEB-007.md)
+- [最新18页技术PDF v3与配套源稿](materials/2026-10-28_创宇宙Web技术文档_v3/README.md)、[保留的v2](materials/2026-10-28_创宇宙Web技术文档_v2/README.md)、[保留的v1](materials/2026-10-23_创宇宙Web技术文档_v1/README.md)、[独立仓库记录](evidence/WEB-007.md)
 - [Web真实AI验收与撤销修复](evidence/WEB-008.md)
 - [技术PDF v2与公开同步](evidence/WEB-009.md)
+- [运行指南及AI论证修正](evidence/WEB-010.md)
 - [历史开发对话链](https://github.com/guojianyu0806/chuangyuzhou-web/tree/c0ac0564c5e93ea0ba9a7af001dc5e12b685754e/evidence/prompt-chains)
 - 代码仓库：<https://github.com/guojianyu0806/chuangyuzhou-web>
 - 赛道官方详情：<https://www.boxuegu.com/matchTrack/detail/?id=10037>
@@ -49,14 +50,9 @@ node tools/start.mjs
 
 已建立源码工作目录、运行隔离、文件校验和独立启动入口，补齐模型环境变量，完成团队及公开仓库信息。WEB-004增加local/web两种运行模式：本机使用保持兼容；Web模式通过固定HTTPS原点与同源反向代理运行，使用安全登录Cookie。浏览器启动检查和服务端同步相关提示已适配，原有业务功能保留。配置见[应用说明](chuangyuzhou/README.md#3-环境变量模板)及[Web服务指南](chuangyuzhou/web-deployment/README.md)。
 
-现有工程测试、真实模型记录和演示材料继续保留各自日期及版本。WEB-007建立独立仓库；WEB-008完成本机Web真实AI查询/生成/修订/确认/刷新关联，4次请求共48,730 token，修复后的撤销使用保存真实状态离线回放；全量920项、917通过、0失败、3跳过。WEB-009另存15页技术PDF v2，保留v1；视频按用户确认沿用既有MP4，不再重剪。真实域名TLS及官网最终提交仍按实际办理情况记录。
+现有工程测试、真实模型记录和演示材料保留各自日期及版本。WEB-007建立独立仓库；WEB-008完成本机Web真实AI及修复后撤销回放，4次请求共48,730 token；全量920项、917通过、0失败、3跳过。WEB-010统一当前运行指南并另存18页PDF v3，补AI选型与优化依据、两类创新及案例矩阵，业务代码未改。v1/v2及旧视频原件保留，不重剪旧视频。真实域名TLS及官网最终提交仍按实际办理情况记录。
 
-接下来依次推进：
-
-1. 在确定的独立服务器与HTTPS域名上配置Web模式，按指南完成真实环境验收。
-2. 核心AI流程已有WEB-008记录；真实模型原始问题、源码修复和修复后离线回放分别保留，未将回放写成新在线调用。干净环境复现按本轮要求暂不推进。
-3. 技术PDF v2已补入当前源码和WEB-008证据，v1原件保留。
-4. 使用用户已确认的旧视频；提交前核对官网字段、文件与链接，保存最终提交回执。
+核心AI证据、当前运行指南和PDF v3已经具备；旧视频按用户确认沿用。官网上传字段、准确文件/视频链接及最终提交回执仍按实际核对。公网演示属于可选加分项，如选择提供，再验证目标域名TLS、服务可用性和专用体验账号。本版不声称已完成独立环境复现。
 
 ## Git 与材料
 

@@ -1,0 +1,75 @@
+{
+  "recordId": "WEB-010",
+  "checkedAt": "2026-10-28T15:50:28.097231+00:00",
+  "pdf": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/创宇宙_Web赛道技术文档_v3.pdf",
+  "pdfSha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c",
+  "rendering": {
+    "tool": "Poppler pdftoppm",
+    "dpi": 110,
+    "pages": 18,
+    "imagesDirectory": "web-track/.local/WEB-010/pdf-render",
+    "imagesTracked": false
+  },
+  "method": "All 18 rendered page images were visually inspected at full page size; structural assertions are recorded separately in pdf-check.json.",
+  "reviews": [
+    {
+      "reviewer": "primary agent",
+      "pages": [
+        1,
+        2,
+        5,
+        7,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "reviewer": "independent review agent",
+      "pages": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        14,
+        15
+      ]
+    }
+  ],
+  "reviewedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "checks": {
+    "noClippedBodyTextOrTable": true,
+    "noTextOrDiagramOverlap": true,
+    "noMissingOrCorruptedGlyphsObserved": true,
+    "consistentPageHeaderAndFooter": true,
+    "footerCommitAndDateCorrect": true,
+    "pageNumbersMatch18Pages": true
+  },
+  "limitations": "Visual review verifies this PDF layout. It is not a new application, model-quality, performance, or user-effectiveness test.",
+  "newModelCalls": 0,
+  "applicationTestsRerun": false
+}
