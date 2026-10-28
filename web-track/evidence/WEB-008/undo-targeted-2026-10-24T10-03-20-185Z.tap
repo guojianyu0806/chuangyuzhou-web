@@ -1,0 +1,172 @@
+TAP version 13
+# Subtest: viewing a legacy space computes an independent catalogue and geometry without mutating saved state
+ok 1 - viewing a legacy space computes an independent catalogue and geometry without mutating saved state
+  ---
+  duration_ms: 4.6
+  type: 'test'
+  ...
+# Subtest: placing and hiding a shared module changes only this space, keeping main and sibling configurations intact
+ok 2 - placing and hiding a shared module changes only this space, keeping main and sibling configurations intact
+  ---
+  duration_ms: 2.5544
+  type: 'test'
+  ...
+# Subtest: space custom blocks and children stay out of main and sibling canvases while retaining real block contents
+ok 3 - space custom blocks and children stay out of main and sibling canvases while retaining real block contents
+  ---
+  duration_ms: 5.7561
+  type: 'test'
+  ...
+# Subtest: failed scoped placement and guarded undo preserve root, sibling, business data and original layout
+ok 4 - failed scoped placement and guarded undo preserve root, sibling, business data and original layout
+  ---
+  duration_ms: 2.1191
+  type: 'test'
+  ...
+# Subtest: creating a block from a space editor atomically places it in that space without changing the main template
+ok 5 - creating a block from a space editor atomically places it in that space without changing the main template
+  ---
+  duration_ms: 3.5916
+  type: 'test'
+  ...
+# Subtest: backup export validation and merge preserve nested ownership, scope settings and geometry
+ok 6 - backup export validation and merge preserve nested ownership, scope settings and geometry
+  ---
+  duration_ms: 5.149
+  type: 'test'
+  ...
+# Subtest: cycle, dangling owner, malformed scope and archived-space placement are rejected
+ok 7 - cycle, dangling owner, malformed scope and archived-space placement are rejected
+  ---
+  duration_ms: 0.5381
+  type: 'test'
+  ...
+# Subtest: AI operations retain scope metadata and may create reviewed blocks in an existing space
+ok 8 - AI operations retain scope metadata and may create reviewed blocks in an existing space
+  ---
+  duration_ms: 8.2677
+  type: 'test'
+  ...
+# Subtest: return trail follows module entry back to the exact scoped builder, and survives refresh
+ok 9 - return trail follows module entry back to the exact scoped builder, and survives refresh
+  ---
+  duration_ms: 1.085
+  type: 'test'
+  ...
+# Subtest: nested readers and direct links return to their real parent, rather than an unrelated root page
+ok 10 - nested readers and direct links return to their real parent, rather than an unrelated root page
+  ---
+  duration_ms: 0.6961
+  type: 'test'
+  ...
+# Subtest: invalid or disappeared sources cannot lead the return button outside this workspace
+ok 11 - invalid or disappeared sources cannot lead the return button outside this workspace
+  ---
+  duration_ms: 0.3264
+  type: 'test'
+  ...
+# Subtest: encoded identifiers and reader details round trip without splitting Chinese titles or punctuation
+ok 12 - encoded identifiers and reader details round trip without splitting Chinese titles or punctuation
+  ---
+  duration_ms: 0.2754
+  type: 'test'
+  ...
+# Subtest: revisiting a URL creates a new origin while actual browser history restores the matching visit
+ok 13 - revisiting a URL creates a new origin while actual browser history restores the matching visit
+  ---
+  duration_ms: 0.2298
+  type: 'test'
+  ...
+# Subtest: browsing and reloading a newly created linked space permits complete undo and removes only its automatic boards
+ok 14 - browsing and reloading a newly created linked space permits complete undo and removes only its automatic boards
+  ---
+  duration_ms: 16.2855
+  type: 'test'
+  ...
+# Subtest: course note and file boards created by browsing do not leave an empty course after undo
+ok 15 - course note and file boards created by browsing do not leave an empty course after undo
+  ---
+  duration_ms: 3.0679
+  type: 'test'
+  ...
+# Subtest: undo removes even empty automatic boards and restores both boards and records when saving fails
+ok 16 - undo removes even empty automatic boards and restores both boards and records when saving fails
+  ---
+  duration_ms: 4.0841
+  type: 'test'
+  ...
+# Subtest: the actual default workbench, including hidden presets, is disposable for normal and fitness spaces
+ok 17 - the actual default workbench, including hidden presets, is disposable for normal and fitness spaces
+  ---
+  duration_ms: 5.3527
+  type: 'test'
+  ...
+# Subtest: workbench card, geometry, view, and settings changes keep the parent and the exact layout
+ok 18 - workbench card, geometry, view, and settings changes keep the parent and the exact layout
+  ---
+  duration_ms: 21.8005
+  type: 'test'
+  ...
+# Subtest: a real later placement that enables a shared module retains the parent and scoped configuration
+ok 19 - a real later placement that enables a shared module retains the parent and scoped configuration
+  ---
+  duration_ms: 1.8041
+  type: 'test'
+  ...
+# Subtest: explicit customization and modified timestamps retain the parent and its board
+ok 20 - explicit customization and modified timestamps retain the parent and its board
+  ---
+  duration_ms: 2.8159
+  type: 'test'
+  ...
+# Subtest: unmarked manual geometry, colour, view and presentation changes remain protected
+ok 21 - unmarked manual geometry, colour, view and presentation changes remain protected
+  ---
+  duration_ms: 7.2641
+  type: 'test'
+  ...
+# Subtest: unknown board sections, cards and unmarked content-card colours are conservatively retained
+ok 22 - unknown board sections, cards and unmarked content-card colours are conservatively retained
+  ---
+  duration_ms: 3.5108
+  type: 'test'
+  ...
+# Subtest: later business content retains the parent and automatic boards
+ok 23 - later business content retains the parent and automatic boards
+  ---
+  duration_ms: 2.945
+  type: 'test'
+  ...
+# Subtest: undo refuses a workspace that changed while its action module was loading
+ok 24 - undo refuses a workspace that changed while its action module was loading
+  ---
+  duration_ms: 7.778
+  type: 'test'
+  ...
+# Subtest: action undo persists business changes and cleared execution metadata in one snapshot
+ok 25 - action undo persists business changes and cleared execution metadata in one snapshot
+  ---
+  duration_ms: 3.3488
+  type: 'test'
+  ...
+# Subtest: failed action undo restores both domain records and the complete conversation receipt
+ok 26 - failed action undo restores both domain records and the complete conversation receipt
+  ---
+  duration_ms: 1.5097
+  type: 'test'
+  ...
+# Subtest: manual undo also clears execution metadata atomically and rolls back asynchronous save failure
+ok 27 - manual undo also clears execution metadata atomically and rolls back asynchronous save failure
+  ---
+  duration_ms: 1.5595
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 369.9448

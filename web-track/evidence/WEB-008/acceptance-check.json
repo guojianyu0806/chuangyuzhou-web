@@ -1,0 +1,60 @@
+{
+  "recordId": "WEB-008",
+  "checkedAt": "2026-10-24T10:07:09.476Z",
+  "checks": {
+    "baseline_is_synthetic_and_has_no_ai_request": true,
+    "first_awaits_review_without_business_write": true,
+    "missed_revision_awaits_review_without_business_write": true,
+    "corrected_awaits_review_without_business_write": true,
+    "queries_were_really_returned_to_the_model": true,
+    "first_proposal_keeps_original_dates": true,
+    "original_revision_date_miss_is_preserved": true,
+    "clarified_proposal_has_consistent_revised_date": true,
+    "previous_proposal_is_replaced": true,
+    "confirmation_creates_linked_space_note_and_two_tasks": true,
+    "confirmation_receipt_matches_latest_job": true,
+    "duplicate_confirmation_does_not_duplicate_or_change_records": true,
+    "refresh_and_navigation_preserve_records_and_receipt": true,
+    "original_undo_defect_is_preserved": true,
+    "offline_replay_uses_exact_saved_business_and_boards": true,
+    "fixed_undo_clears_all_four_records_and_auto_boards": true,
+    "fixed_after_refresh_undo_clears_all_four_records_and_auto_boards": true,
+    "offline_undo_survives_refresh": true,
+    "01-before-ai_protects_unrelated_records": true,
+    "02-first-proposal_protects_unrelated_records": true,
+    "03-revised-proposal_protects_unrelated_records": true,
+    "04-corrected-proposal_protects_unrelated_records": true,
+    "05-confirmed_protects_unrelated_records": true,
+    "06-duplicate-confirm_protects_unrelated_records": true,
+    "07-refreshed-and-linked_protects_unrelated_records": true,
+    "08-undone_protects_unrelated_records": true,
+    "09-undone-after-refresh_protects_unrelated_records": true,
+    "10-replay-before-undo_protects_unrelated_records": true,
+    "11-replay-undone_protects_unrelated_records": true,
+    "12-replay-undone-after-refresh_protects_unrelated_records": true,
+    "usage_accounts_for_every_actual_request": true,
+    "existing_pdf_unchanged": true
+  },
+  "passed": 32,
+  "liveSourceCommit": "e5925b3b622977b6b70797ec249251983bdbba70",
+  "currentSource": {
+    "files": 312,
+    "sourceCommit": "e5925b3b622977b6b70797ec249251983bdbba70"
+  },
+  "liveResult": "query-generation-clarified-revision-confirmation-refresh-and-links-passed; original-undo-defect-recorded",
+  "postFixResult": "captured-live-state-offline-browser-replay-passed; no-additional-provider-call",
+  "totals": {
+    "requests": 4,
+    "promptTokens": 46802,
+    "completionTokens": 1928,
+    "totalTokens": 48730,
+    "usageResponses": 4
+  },
+  "firstRevisionRequiredClarification": true,
+  "cleanEnvironmentReproduction": false,
+  "publicTLS": false,
+  "knownLimitations": {
+    "globalCanvasRetainsHiddenGeometryForRemovedSpace": true,
+    "note": "Space-scoped automatic boards are removed. The existing global canvas retains a hidden geometry cache entry; this is not a remaining business space or visible card."
+  }
+}
