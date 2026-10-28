@@ -8,10 +8,12 @@
 
 - [Web源码与完整运行指南](web-track/chuangyuzhou/README.md)
 - [Web部署配置](web-track/chuangyuzhou/web-deployment/README.md)
-- [15页技术PDF及可编辑源稿](web-track/materials/2026-10-23_创宇宙Web技术文档_v1/README.md)
+- [最新15页技术PDF v2及可编辑源稿](web-track/materials/2026-10-28_创宇宙Web技术文档_v2/README.md)
+- [保留的技术PDF v1](web-track/materials/2026-10-23_创宇宙Web技术文档_v1/README.md)
 - [Web材料清单](web-track/materials/README.md)
 - [独立仓库与Git迁移记录](web-track/evidence/WEB-007.md)
 - [Web真实AI验收、用量与撤销修复](web-track/evidence/WEB-008.md)
+- [技术PDF v2与独立仓库同步记录](web-track/evidence/WEB-009.md)
 
 安装Node.js ≥22.13，在仓库根目录运行：
 
@@ -26,7 +28,7 @@ node tools/start.mjs
 
 ## 源码、测试与材料
 
-当前应用对应WEB-008，312个源码文件校验清单随目录保留。最新全量920项、917通过、0失败、3跳过。本机Web真实AI查询、生成、审核修订、确认、刷新及日历关联已验证；浏览后撤销问题已修复，并使用本次真实结果离线回放复验。4次真实请求共48,730 token，原始问题及验证边界见WEB-008；技术PDF v1原件保留。真实模型、回放、浏览器与历史测试分别记录。
+当前应用对应WEB-008，312个源码文件校验清单随目录保留。最新全量920项、917通过、0失败、3跳过。本机Web真实AI查询、生成、审核修订、确认、刷新及日历关联已验证；浏览后撤销问题已修复，并使用本次真实结果离线回放复验。4次真实请求共48,730 token，原始问题及验证边界见WEB-008。技术PDF v2已按当前源码和证据更新，v1原件保留；视频按用户确认沿用既有MP4。真实模型、回放、浏览器与历史测试分别记录。
 
 `web-track/`包含应用、技术PDF、Web阶段证据和维护工具。本仓库不携带作者账号、数据库、附件、初始化口令或Key，也不复制旧工作区未提交的材料。
 

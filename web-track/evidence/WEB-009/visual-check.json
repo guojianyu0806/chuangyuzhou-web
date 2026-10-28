@@ -1,0 +1,165 @@
+{
+  "recordId": "WEB-009",
+  "checkedAt": "2026-10-28T09:13:47.6407951Z",
+  "pdfSha256": "cb8e57fefd80665afd868c0bc0381439ea2f82ca427f1f945d0902adffe58867",
+  "allPagesReviewed": true,
+  "method": "Poppler 110 DPI PNG rendering; full-page visual inspection",
+  "primaryReviewedPages": [
+    1,
+    5,
+    10,
+    11,
+    14,
+    15
+  ],
+  "independentReviewedPages": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sha256": "7c4be658517201da220d49543fc499ec32e3f634cadcefae8fce3b517d3f8b00",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 2,
+      "sha256": "ca1e13e1bc5044dea45f2a885ec3a7140fbd62cd0b678a6893b4349ca4ff5ace",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 3,
+      "sha256": "8e0d524725d4f6045eb9cb83acfe480f6be97840fd8f4ce4d0b46179ad50d403",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 4,
+      "sha256": "d142435b889d9f8b42b684297588d5d184f5c6b6ac8c8a0656686cb71d86028a",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 5,
+      "sha256": "97b31931234789fbd33bf562f354e55cd65282adef1e558c33fee8b6e9a50fa6",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 6,
+      "sha256": "97cd0a4c40f17a2f8548cb6bf05f31d9c69d1600377a304a8f428cf76d76f5ae",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 7,
+      "sha256": "7add89b010946e3d3048984307b484111f5ad4a55b26fe0c8e391955820db0f8",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 8,
+      "sha256": "e6acb78a2721a854ef05ffc93856dc0b84d98d069e0af9718f2fb9c0d96bc462",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 9,
+      "sha256": "dea7de6862e885efff2d6c27b00d48440ce994779106b4433f1253cdb099e3d8",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 10,
+      "sha256": "b9bce9cbe620a8169f59bcca2d58d1d6754ea5d2dd89171ffd1079c0113a0596",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 11,
+      "sha256": "0564550ec314038e738e95afcb8ab254eb5a4c494e7f3efb276a6ca8bc5f0c47",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 12,
+      "sha256": "738ad7bc5858eb550650b9b9aa3399185a429e9584730161c5ecc0f6dcaa286b",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 13,
+      "sha256": "c80f27c5d4b89ee453feca010c132cae1bdcefc88ee5ecae9334d945ea384938",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 14,
+      "sha256": "4a596e09857a1eec93b1a90e077261e7c84e5d4de118843aba32d7597d2fd684",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    },
+    {
+      "page": 15,
+      "sha256": "acd6245c5e408eeb8513359595f6f7f0c939d591e044e10be7fc62853aa20ed9",
+      "fullPageInspected": true,
+      "clipping": false,
+      "overlap": false,
+      "unreadableGlyphs": false,
+      "headerFooterCorrect": true
+    }
+  ],
+  "blockingDefects": 0,
+  "intermediateImagesIgnoredByGit": true
+}

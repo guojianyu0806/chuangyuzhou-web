@@ -1,0 +1,15 @@
+{
+  "recordId": "WEB-009",
+  "checkedAt": "2026-10-28T09:14:43.0281198Z",
+  "repository": "https://github.com/guojianyu0806/chuangyuzhou-web.git",
+  "localMainBefore": "c71c0411245943198ce1db9d6276e211b4a28c94",
+  "remoteRefs": {
+    "refs/heads/codex/web-separation-baseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+    "refs/heads/codex/yuzhou-historical-snapshots": "8d3b22714badc7abc532f09e04f1fc02efdf4780",
+    "refs/heads/main": "e5925b3b622977b6b70797ec249251983bdbba70"
+  },
+  "backup": ".git/WEB-009-before-push.bundle",
+  "pushBranch": "main",
+  "forcePush": false,
+  "originalRepositoryWrite": false
+}
