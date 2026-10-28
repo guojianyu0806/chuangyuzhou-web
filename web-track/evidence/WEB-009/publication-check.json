@@ -1,0 +1,26 @@
+{
+  "recordId": "WEB-009",
+  "checkedAt": "2026-10-28T09:16:03.2406117Z",
+  "repository": "https://github.com/guojianyu0806/chuangyuzhou-web",
+  "materialCommit": "f4f2cbfd72ebf94988bb336fd1e746723c705618",
+  "includedAICommit": "c71c0411245943198ce1db9d6276e211b4a28c94",
+  "remoteRefs": {
+    "refs/heads/codex/web-separation-baseline": "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e",
+    "refs/heads/codex/yuzhou-historical-snapshots": "8d3b22714badc7abc532f09e04f1fc02efdf4780",
+    "refs/heads/main": "f4f2cbfd72ebf94988bb336fd1e746723c705618"
+  },
+  "anonymousReadmeStatus": 200,
+  "anonymousReadmeHasV2": true,
+  "pdf": {
+    "path": "web-track/materials/2026-10-28_创宇宙Web技术文档_v2/创宇宙_Web赛道技术文档_v2.pdf",
+    "status": 200,
+    "bytes": 516237,
+    "sha256": "cb8e57fefd80665afd868c0bc0381439ea2f82ca427f1f945d0902adffe58867",
+    "matchesLocal": true
+  },
+  "fixedHistoryBranchesUnchanged": true,
+  "forcePush": false,
+  "originalRepositoryWrite": false,
+  "websiteDeployed": false,
+  "competitionSubmitted": false
+}
