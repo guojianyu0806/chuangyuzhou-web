@@ -1,0 +1,74 @@
+[
+  {
+    "version": "2026-10-23_创宇宙Web技术文档_v1",
+    "path": ".gitattributes",
+    "bytes": 27,
+    "sha256": "07a2f41719cd55762e837e3598cd3ba067bc207a7ec63a46b2d86f609dc50acd"
+  },
+  {
+    "version": "2026-10-23_创宇宙Web技术文档_v1",
+    "path": "创宇宙_Web赛道技术文档_正文_v1.md",
+    "bytes": 25686,
+    "sha256": "0b8ecec577a224fc9f7d74b4f33908971ea018a2a3d17e0f2cce9eec8fae9d21"
+  },
+  {
+    "version": "2026-10-23_创宇宙Web技术文档_v1",
+    "path": "创宇宙_Web赛道技术文档_v1.pdf",
+    "bytes": 439887,
+    "sha256": "d607c4dbb96f65af92888233e92eb03d9b536ec8bad77de19b1d35be0367222c"
+  },
+  {
+    "version": "2026-10-23_创宇宙Web技术文档_v1",
+    "path": "build_pdf.py",
+    "bytes": 11484,
+    "sha256": "58cd26524858889da5c7bd719fa4f3f71d0a23cc9bcf5069e0d06f6d75e85530"
+  },
+  {
+    "version": "2026-10-23_创宇宙Web技术文档_v1",
+    "path": "README.md",
+    "bytes": 2002,
+    "sha256": "b4caff7010ac498efd464aa7c72ddb424f8469d150dd9c4f918fe52d984d1c48"
+  },
+  {
+    "version": "2026-10-23_创宇宙Web技术文档_v1",
+    "path": "SHA256SUMS.txt",
+    "bytes": 452,
+    "sha256": "3171e9895b9c2e6aad1a2aa3ae6a72dad0daf1bbaaaff98b3ca33491e18b4017"
+  },
+  {
+    "version": "2026-10-28_创宇宙Web技术文档_v2",
+    "path": ".gitattributes",
+    "bytes": 27,
+    "sha256": "07a2f41719cd55762e837e3598cd3ba067bc207a7ec63a46b2d86f609dc50acd"
+  },
+  {
+    "version": "2026-10-28_创宇宙Web技术文档_v2",
+    "path": "创宇宙_Web赛道技术文档_正文_v2.md",
+    "bytes": 27070,
+    "sha256": "84d5a4618ab17a0704304d797973dfbe5a9afc054bcb771d9c9e3f0e7bc557e1"
+  },
+  {
+    "version": "2026-10-28_创宇宙Web技术文档_v2",
+    "path": "创宇宙_Web赛道技术文档_v2.pdf",
+    "bytes": 516237,
+    "sha256": "cb8e57fefd80665afd868c0bc0381439ea2f82ca427f1f945d0902adffe58867"
+  },
+  {
+    "version": "2026-10-28_创宇宙Web技术文档_v2",
+    "path": "build_pdf.py",
+    "bytes": 12274,
+    "sha256": "32e7c4183686d3c1c5fa353108dd91e608b14b6ccb9e0d80ef3478b00d9e9002"
+  },
+  {
+    "version": "2026-10-28_创宇宙Web技术文档_v2",
+    "path": "README.md",
+    "bytes": 2409,
+    "sha256": "9d3cc14a965c2beab10b230391572c7cfaaa9f4e956f3074a662bbb8d8db17af"
+  },
+  {
+    "version": "2026-10-28_创宇宙Web技术文档_v2",
+    "path": "SHA256SUMS.txt",
+    "bytes": 452,
+    "sha256": "2949f96f52a9ca7c6cfaf697a9ed74c5fc8f080df2a98db869e8ef894263f7d3"
+  }
+]

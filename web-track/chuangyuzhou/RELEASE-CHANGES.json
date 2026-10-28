@@ -1,22 +1,16 @@
 {
-  "recordId": "WEB-008",
+  "recordId": "WEB-010",
   "product": "创宇宙",
   "trackId": 10037,
-  "release": "2026-10-24-web-dev-008",
-  "sourceCommit": "e5925b3b622977b6b70797ec249251983bdbba70",
-  "selectedRelease": "2026-10-23-web-dev-004",
+  "release": "2026-10-28-web-dev-010",
+  "sourceCommit": "4bd1a55ffc59390df8707d94b18b549fef68491a",
+  "selectedRelease": "2026-10-24-web-dev-008",
   "changes": [
     {
-      "path": "yuzhou/frontend/src/workspace-actions-core.js",
-      "bytes": 25050,
-      "sha256": "9819aed4b9af650d7d0769f62c94b651ba1d48f068c7f388f1e558bb684bc5e0",
-      "baselineSha256": "548f9dbbcc1356eaff04223705a1893851503a6a4525834a7a135caa6268efeb"
-    },
-    {
-      "path": "yuzhou/frontend/tests/workspace-board-undo.test.mjs",
-      "bytes": 9747,
-      "sha256": "5a910b63d05e086c9baa24e898ad78a620ff16faa5fbd20afda86a0819624f3f",
-      "baselineSha256": "e4d109b24712dfb2b5d74bb466d708f7ea5b13cef57fca9bdd100e1a23a4743b"
+      "path": "README.md",
+      "bytes": 15182,
+      "sha256": "3013f141506844dccab4002184f1fc7d9d4a2ea29a1978ea7b66439d0be22044",
+      "baselineSha256": "4d872a70419dfded36efe6c2bd21d7cafc28c47d97ed2d8a308a77d56940a0cf"
     }
   ]
 }
