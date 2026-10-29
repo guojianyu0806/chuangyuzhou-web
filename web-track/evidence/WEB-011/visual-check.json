@@ -1,0 +1,16 @@
+{
+  "recordId": "WEB-011",
+  "checkedAt": "2026-10-29T13:01:54.250163+00:00",
+  "pdf": "releases/2026-10-29_创宇宙Web预指导提交_v1/05_AI创作说明_300字以内_v1.pdf",
+  "pdfSha256": "88be66e328d4f6807493f25ebe6cb6e1edac9f957d5ac1fd6cd40a9d7e2cd218",
+  "renderer": "Poppler pdftoppm",
+  "dpi": 110,
+  "pagesRendered": 1,
+  "pagesVisuallyInspected": [
+    1
+  ],
+  "noClippingOverlapOrCorruptedGlyphsObserved": true,
+  "orderedMembersVerified": true,
+  "renderImage": "web-track/.local/WEB-011/AI-creation-statement.png",
+  "intermediateImageIncludedInUpload": false
+}

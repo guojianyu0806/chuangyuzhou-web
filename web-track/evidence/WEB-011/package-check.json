@@ -1,0 +1,103 @@
+{
+  "recordId": "WEB-011",
+  "date": "2026-10-29",
+  "output": "releases/2026-10-29_创宇宙Web预指导提交_v1",
+  "sourceCommit": "49469753896cc7d74e535193cfd73074528a1810",
+  "sourceFilesVerifiedAgainstGitBlobs": 426,
+  "applicationManifestFilesVerified": 312,
+  "sourceZipContainsOnlyCommittedFiles": true,
+  "sourceTextSecretLikeLiterals": 0,
+  "historicalExcerptFiles": 30,
+  "bundleHeads": [
+    "49469753896cc7d74e535193cfd73074528a1810 refs/heads/main",
+    "c0ac0564c5e93ea0ba9a7af001dc5e12b685754e refs/heads/codex/web-separation-baseline",
+    "8d3b22714badc7abc532f09e04f1fc02efdf4780 refs/heads/codex/yuzhou-historical-snapshots"
+  ],
+  "bundleVerifyExitCode": 0,
+  "shortPDF": {
+    "pages": 1,
+    "bodyCharactersIncludingPunctuationAndLatinLetters": 251,
+    "allVisibleNonWhitespaceCharacters": 278,
+    "under100MB": true
+  },
+  "video": {
+    "sourcePath": "E:\\传智杯\\传智杯AI创新应用挑战赛\\delivery\\2026-10-20_创宇宙网盘提交_v3\\“创宇宙”正式提交视频.mp4",
+    "sha256": "ab2816d9bab7a6ce9196575b1d95619a094d8386761dfb235130eafba233ae81",
+    "copiedBytesUnchanged": true,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 413.942132,
+    "fullViewingRepeated": false
+  },
+  "technicalPDF": {
+    "source": "web-track/materials/2026-10-28_创宇宙Web技术文档_v3/创宇宙_Web赛道技术文档_v3.pdf",
+    "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c",
+    "copiedBytesUnchanged": true,
+    "pages": 18
+  },
+  "files": [
+    {
+      "name": "00_材料说明与上传指引.txt",
+      "bytes": 2401,
+      "sha256": "6eed06e8822b9fbcbc9eba169c1f6d3170bd86b6be74bca86c74ca11632bcd4f"
+    },
+    {
+      "name": "01_创宇宙Web源码_4946975.zip",
+      "bytes": 3615491,
+      "sha256": "6b5d34dd0fed3760f2c675c1718e0cacc73487c91cc213b3079af47239fbc148"
+    },
+    {
+      "name": "02_创宇宙Web技术文档_v3.pdf",
+      "bytes": 547753,
+      "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c"
+    },
+    {
+      "name": "03_创宇宙演示视频.mp4",
+      "bytes": 185681386,
+      "sha256": "ab2816d9bab7a6ce9196575b1d95619a094d8386761dfb235130eafba233ae81"
+    },
+    {
+      "name": "04_AI开发过程与验收证据.zip",
+      "bytes": 17173755,
+      "sha256": "77b767ba49821471cc2bef05823957ef11bd2066a20c49b97c0bc619287eec02"
+    },
+    {
+      "name": "05_AI创作说明_300字以内_v1.pdf",
+      "bytes": 78060,
+      "sha256": "88be66e328d4f6807493f25ebe6cb6e1edac9f957d5ac1fd6cd40a9d7e2cd218"
+    },
+    {
+      "name": "作品链接.txt",
+      "bytes": 566,
+      "sha256": "7af720dee28f697b1e90979370bdd9ea1a1b656e92898a4efa769bed0db74726"
+    }
+  ],
+  "checksumFile": "SHA256SUMS.txt",
+  "totalBytes": 207100099,
+  "visualReview": {
+    "completed": true,
+    "separateRecord": "WEB-011/visual-check.json"
+  },
+  "newModelCalls": 0,
+  "applicationCleanEnvironmentReproduction": false,
+  "uploadedToCloud": false,
+  "cloudShareLinkCreated": false,
+  "competitionSubmitted": false,
+  "originalFilesOverwritten": false,
+  "originalRepositoryWrite": false,
+  "independentReadOnlyReview": {
+    "passed": true,
+    "checksumRowsVerified": 7,
+    "sourceZipFilesRead": 426,
+    "evidenceZipFilesRead": 109,
+    "applicationManifestFilesVerified": 312,
+    "unsafeZipPathsOrDuplicatesFound": 0,
+    "shortPDFTotalNonWhitespaceCharacters": 278
+  },
+  "initialAttempt": {
+    "result": "Git archive normalized 8 non-application text files to CRLF; strict byte identity check rejected the draft before delivery.",
+    "resolution": "Final source ZIP reads canonical Git blobs directly via cat-file; all 426 files match object hashes.",
+    "rejectedDraftRetained": "web-track/.local/WEB-011/failed-git-archive-source.zip",
+    "rejectedDraftIncludedInUpload": false
+  }
+}
