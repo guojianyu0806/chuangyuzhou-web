@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-30",
+  "folder": "releases/2026-10-30_创宇宙Web网盘直接上传_v3",
+  "file_count": 8,
+  "total_bytes": 95920544,
+  "checks": {
+    "file_count_8": true,
+    "original_four_binaries_identical": true,
+    "introduction_pdf_identical": true,
+    "checksums_7_valid": true,
+    "zip_crc_valid": true,
+    "no_symlinks": true,
+    "existing_files_unchanged": true,
+    "no_unwanted_wording_in_new_notes": true
+  },
+  "protected_existing_files": 477,
+  "files": [
+    {
+      "name": "00_作品材料说明.txt",
+      "bytes": 1625,
+      "sha256": "9cc5d38ecafed33e4aed8e3419d1f08c88d814f2e00787defa48e4ca69c1b016"
+    },
+    {
+      "name": "01_创宇宙Web源码_4946975.zip",
+      "bytes": 3615491,
+      "sha256": "6b5d34dd0fed3760f2c675c1718e0cacc73487c91cc213b3079af47239fbc148"
+    },
+    {
+      "name": "02_创宇宙Web技术文档_v3.pdf",
+      "bytes": 547753,
+      "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c"
+    },
+    {
+      "name": "03_创宇宙Web演示视频_v1.mp4",
+      "bytes": 72287989,
+      "sha256": "34bd7d7454ebc003cc4cc0fc6c66282089477bc06a0e655bab9d7a386b4a5e98"
+    },
+    {
+      "name": "04_AI开发过程与验收证据.zip",
+      "bytes": 17173755,
+      "sha256": "77b767ba49821471cc2bef05823957ef11bd2066a20c49b97c0bc619287eec02"
+    },
+    {
+      "name": "05_创宇宙Web作品介绍文档_v1.pdf",
+      "bytes": 2292435,
+      "sha256": "5e375d7ea76e32b5156522f1819bb855b3882104578aad50bac45cfcc2c7d2e2"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 687,
+      "sha256": "87a7a8fd7fd6181221b46624b70a043f4099f4a55f89e7a4f34238c0db73e065"
+    },
+    {
+      "name": "作品链接.txt",
+      "bytes": 809,
+      "sha256": "6996ac277948d995263b719fae1db98391d5e53e03ae030778301735af2ad227"
+    }
+  ],
+  "application_changes": false,
+  "model_calls": 0,
+  "uploaded_to_netdisk": false,
+  "submitted_to_competition": false
+}
