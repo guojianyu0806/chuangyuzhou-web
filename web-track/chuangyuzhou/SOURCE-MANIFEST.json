@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "创宇宙",
   "trackId": 10037,
-  "release": "2026-10-28-web-dev-010",
-  "sourceCommit": "4bd1a55ffc59390df8707d94b18b549fef68491a",
+  "release": "2026-10-30-web-doc-019",
+  "sourceCommit": "86278ce2404e8edd2fe3eae44dae8359311e87c3",
   "defaultPort": 4396,
   "privateRuntimeIncluded": false,
-  "baselineRecord": "../evidence/WEB-010/source-baseline.json",
+  "baselineRecord": "../evidence/WEB-019/source-baseline.json",
   "files": [
     {
       "path": ".env.example",
@@ -30,8 +30,8 @@
     },
     {
       "path": "RELEASE-CHANGES.json",
-      "bytes": 478,
-      "sha256": "909ff514e095441915c9bea4fd484cf3ee3b685422c60b4acc78e7e6141cab36"
+      "bytes": 668,
+      "sha256": "a9eebc416fbb5983916d27c095d69a78bd1aa3b6de48b37ededd68a73721f3cc"
     },
     {
       "path": "SOURCE-NOTICE.md",
@@ -90,8 +90,8 @@
     },
     {
       "path": "web-deployment/README.md",
-      "bytes": 5794,
-      "sha256": "900dd3843c21496a4603a07a120c0c35820765ae98b7f32f643e8472d37fd4c5"
+      "bytes": 6155,
+      "sha256": "324977e82fe94df1f6ec11f7e13cc7f0f36f97d7d808c60d1bc2a5ac147451b9"
     },
     {
       "path": "web-deployment/chuangyuzhou.service.example",

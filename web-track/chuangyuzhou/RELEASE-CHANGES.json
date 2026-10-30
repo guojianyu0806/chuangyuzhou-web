@@ -1,16 +1,18 @@
 {
-  "recordId": "WEB-010",
+  "recordId": "WEB-019",
   "product": "创宇宙",
   "trackId": 10037,
-  "release": "2026-10-28-web-dev-010",
-  "sourceCommit": "4bd1a55ffc59390df8707d94b18b549fef68491a",
-  "selectedRelease": "2026-10-24-web-dev-008",
+  "release": "2026-10-30-web-doc-019",
+  "sourceCommit": "86278ce2404e8edd2fe3eae44dae8359311e87c3",
+  "selectedRelease": "2026-10-28-web-dev-010",
+  "businessImplementationCommit": "c71c0411245943198ce1db9d6276e211b4a28c94",
   "changes": [
     {
-      "path": "README.md",
-      "bytes": 15182,
-      "sha256": "3013f141506844dccab4002184f1fc7d9d4a2ea29a1978ea7b66439d0be22044",
-      "baselineSha256": "4d872a70419dfded36efe6c2bd21d7cafc28c47d97ed2d8a308a77d56940a0cf"
+      "path": "web-deployment/README.md",
+      "bytes": 6155,
+      "sha256": "324977e82fe94df1f6ec11f7e13cc7f0f36f97d7d808c60d1bc2a5ac147451b9",
+      "baselineSha256": "900dd3843c21496a4603a07a120c0c35820765ae98b7f32f643e8472d37fd4c5"
     }
-  ]
+  ],
+  "scope": "Update deployment documentation only; business code and runtime behavior unchanged."
 }
