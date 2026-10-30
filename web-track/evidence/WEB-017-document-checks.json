@@ -1,0 +1,42 @@
+{
+  "document": "web-track/materials/2026-10-30_创宇宙Web作品介绍文档_v1/创宇宙_Web赛道作品介绍文档_v1.pdf",
+  "bytes": 2292435,
+  "pages": 8,
+  "sha256": "5e375d7ea76e32b5156522f1819bb855b3882104578aad50bac45cfcc2c7d2e2",
+  "checks": {
+    "pages_8": true,
+    "under_100mb": true,
+    "seven_requirement_headings": true,
+    "ordered_members": true,
+    "group_and_team": true,
+    "publication_award_statement": true,
+    "continuous_work_statement": true,
+    "live_vs_replay": true,
+    "first_setup_instructions": true,
+    "no_unwanted_wording": true,
+    "no_key_patterns": true,
+    "images_present": true,
+    "embedded_cjk_and_mono": true,
+    "public_repository_link": true,
+    "no_text_outside_page": true,
+    "existing_files_unchanged": true
+  },
+  "embedded_font_records": {
+    "/Helvetica": false,
+    "/AAAAAA+DengXian": true,
+    "/AAAAAB+DengXian": true,
+    "/AAAAAC+DengXian": true,
+    "/AAAAAA+DengXian-Bold": true,
+    "/AAAAAB+DengXian-Bold": true,
+    "/AAAAAA+Consolas": true
+  },
+  "uri_links": [
+    "http://127.0.0.1:4396/",
+    "https://github.com/guojianyu0806/chuangyuzhou-web"
+  ],
+  "protected_files_count": 465,
+  "changed_existing_files": [],
+  "visual_review": "All 8 final pages rendered by pdftoppm at 105 dpi and individually inspected; no overlap or clipped body text observed.",
+  "application_tests_run_this_round": false,
+  "model_calls_this_round": 0
+}
