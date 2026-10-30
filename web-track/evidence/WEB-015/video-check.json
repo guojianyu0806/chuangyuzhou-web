@@ -1,0 +1,110 @@
+{
+  "recordId": "WEB-015",
+  "sourceSha256": "ab2816d9bab7a6ce9196575b1d95619a094d8386761dfb235130eafba233ae81",
+  "renderSha256": "34bd7d7454ebc003cc4cc0fc6c66282089477bc06a0e655bab9d7a386b4a5e98",
+  "outputBytes": 72287989,
+  "durationSeconds": 413.942132,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 12417,
+  "startFrameInclusive": 8051,
+  "endFrameExclusive": 8321,
+  "replacementSeconds": 9.0,
+  "audioPacketHashes": {
+    "source": "SHA256=a7ce9a091cad4a2a0b0bcdfd1b82bddeb41d43736b9cee6092334591c663921f",
+    "output": "SHA256=a7ce9a091cad4a2a0b0bcdfd1b82bddeb41d43736b9cee6092334591c663921f"
+  },
+  "decodedAudioHashes": {
+    "source": "SHA256=8f934ddd85ce1d9d35f7446fcc8913e51296d8f26d2203521b6b19b26c0c552f",
+    "output": "SHA256=8f934ddd85ce1d9d35f7446fcc8913e51296d8f26d2203521b6b19b26c0c552f"
+  },
+  "boundaryChecks": [
+    {
+      "frame": 8050,
+      "seconds": 268.3333333333333,
+      "insideReplacement": false,
+      "meanTopPixelDifferenceFromSource": 0.3774643838405609,
+      "meanSubtitlePixelDifferenceFromSource": 0.11238020658493042,
+      "meanTopPixelDifferenceFromAsset": 44.62169647216797
+    },
+    {
+      "frame": 8051,
+      "seconds": 268.3666666666667,
+      "insideReplacement": true,
+      "meanTopPixelDifferenceFromSource": 45.36029052734375,
+      "meanSubtitlePixelDifferenceFromSource": 0.11203819513320923,
+      "meanTopPixelDifferenceFromAsset": 0.9583448767662048
+    },
+    {
+      "frame": 8052,
+      "seconds": 268.4,
+      "insideReplacement": true,
+      "meanTopPixelDifferenceFromSource": 45.35916519165039,
+      "meanSubtitlePixelDifferenceFromSource": 0.11257985979318619,
+      "meanTopPixelDifferenceFromAsset": 0.9598867893218994
+    },
+    {
+      "frame": 8100,
+      "seconds": 270.0,
+      "insideReplacement": true,
+      "meanTopPixelDifferenceFromSource": 45.363746643066406,
+      "meanSubtitlePixelDifferenceFromSource": 0.20100867748260498,
+      "meanTopPixelDifferenceFromAsset": 0.9559247493743896
+    },
+    {
+      "frame": 8320,
+      "seconds": 277.3333333333333,
+      "insideReplacement": true,
+      "meanTopPixelDifferenceFromSource": 45.375511169433594,
+      "meanSubtitlePixelDifferenceFromSource": 0.3325781226158142,
+      "meanTopPixelDifferenceFromAsset": 0.9521593451499939
+    },
+    {
+      "frame": 8321,
+      "seconds": 277.3666666666667,
+      "insideReplacement": false,
+      "meanTopPixelDifferenceFromSource": 0.3125084936618805,
+      "meanSubtitlePixelDifferenceFromSource": 0.33177605271339417,
+      "meanTopPixelDifferenceFromAsset": 53.69756317138672
+    },
+    {
+      "frame": 8322,
+      "seconds": 277.4,
+      "insideReplacement": false,
+      "meanTopPixelDifferenceFromSource": 0.3169231712818146,
+      "meanSubtitlePixelDifferenceFromSource": 0.3414027690887451,
+      "meanTopPixelDifferenceFromAsset": 53.70124816894531
+    },
+    {
+      "frame": 8340,
+      "seconds": 278.0,
+      "insideReplacement": false,
+      "meanTopPixelDifferenceFromSource": 0.3056195080280304,
+      "meanSubtitlePixelDifferenceFromSource": 0.31747570633888245,
+      "meanTopPixelDifferenceFromAsset": 53.69424057006836
+    },
+    {
+      "frame": 11040,
+      "seconds": 368.0,
+      "insideReplacement": false,
+      "meanTopPixelDifferenceFromSource": 0.2503739595413208,
+      "meanSubtitlePixelDifferenceFromSource": 0.3020138740539551,
+      "meanTopPixelDifferenceFromAsset": 51.784149169921875
+    }
+  ],
+  "unmodifiedShotsSSIM": {
+    "frames": 12147,
+    "mean": 0.9988577958343624,
+    "minimum": 0.994903,
+    "encodingIsLossy": true
+  },
+  "protectedFilesUnchanged": 16,
+  "visualReview": {
+    "completed": true,
+    "separateRecord": "WEB-015/visual-check.json"
+  },
+  "applicationFilesEdited": false,
+  "modelCalls": 0,
+  "uploadedToCloud": false
+}

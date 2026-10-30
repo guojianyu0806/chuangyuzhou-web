@@ -1,0 +1,72 @@
+{
+  "recordId": "WEB-015",
+  "date": "2026-10-30",
+  "checkedAt": "2026-10-30T08:57:17.172801+00:00",
+  "newMasterVideo": "releases/2026-10-30_创宇宙Web视频修订_v1/创宇宙_Web赛道演示视频_v1.mp4",
+  "newUploadFolder": "releases/2026-10-30_创宇宙Web网盘直接上传_v2",
+  "uploadFiles": [
+    {
+      "name": "00_作品材料说明.txt",
+      "bytes": 967,
+      "sha256": "d4ed17af68a2d0658ce0e31d0db9c851f9bfeb5af2f65cfc6525bdc52185c34f"
+    },
+    {
+      "name": "01_创宇宙Web源码_4946975.zip",
+      "bytes": 3615491,
+      "sha256": "6b5d34dd0fed3760f2c675c1718e0cacc73487c91cc213b3079af47239fbc148"
+    },
+    {
+      "name": "02_创宇宙Web技术文档_v3.pdf",
+      "bytes": 547753,
+      "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c"
+    },
+    {
+      "name": "03_创宇宙Web演示视频_v1.mp4",
+      "bytes": 72287989,
+      "sha256": "34bd7d7454ebc003cc4cc0fc6c66282089477bc06a0e655bab9d7a386b4a5e98"
+    },
+    {
+      "name": "04_AI开发过程与验收证据.zip",
+      "bytes": 17173755,
+      "sha256": "77b767ba49821471cc2bef05823957ef11bd2066a20c49b97c0bc619287eec02"
+    },
+    {
+      "name": "作品链接.txt",
+      "bytes": 566,
+      "sha256": "7af720dee28f697b1e90979370bdd9ea1a1b656e92898a4efa769bed0db74726"
+    }
+  ],
+  "checksumRows": 6,
+  "filesIncludingChecksum": 7,
+  "unchangedCopiedMaterials": [
+    {
+      "name": "01_创宇宙Web源码_4946975.zip",
+      "bytes": 3615491,
+      "sha256": "6b5d34dd0fed3760f2c675c1718e0cacc73487c91cc213b3079af47239fbc148",
+      "unchangedFromPreviousFolder": true
+    },
+    {
+      "name": "02_创宇宙Web技术文档_v3.pdf",
+      "bytes": 547753,
+      "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c",
+      "unchangedFromPreviousFolder": true
+    },
+    {
+      "name": "04_AI开发过程与验收证据.zip",
+      "bytes": 17173755,
+      "sha256": "77b767ba49821471cc2bef05823957ef11bd2066a20c49b97c0bc619287eec02",
+      "unchangedFromPreviousFolder": true
+    },
+    {
+      "name": "作品链接.txt",
+      "bytes": 566,
+      "sha256": "7af720dee28f697b1e90979370bdd9ea1a1b656e92898a4efa769bed0db74726",
+      "unchangedFromPreviousFolder": true
+    }
+  ],
+  "videoSha256": "34bd7d7454ebc003cc4cc0fc6c66282089477bc06a0e655bab9d7a386b4a5e98",
+  "totalUploadBytes": 93627101,
+  "oldFilesOverwritten": false,
+  "uploadedToCloud": false,
+  "modelCalls": 0
+}

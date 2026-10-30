@@ -1,0 +1,33 @@
+{
+  "recordId": "WEB-015",
+  "checkedAt": "2026-10-30T08:59:22.478300+00:00",
+  "renderSha256": "34bd7d7454ebc003cc4cc0fc6c66282089477bc06a0e655bab9d7a386b4a5e98",
+  "assetReviewed": true,
+  "genuineUserFeedbackCropReviewed": true,
+  "primaryFramesReviewed": [
+    8051,
+    8100,
+    8320,
+    8321
+  ],
+  "independentFramesReviewed": [
+    8050,
+    8051,
+    8052,
+    8320,
+    8321,
+    8322,
+    8340,
+    11040
+  ],
+  "replacementScopeVerified": [
+    8051,
+    8321
+  ],
+  "firstAndLastReplacementFrameCorrect": true,
+  "originalSubtitleBandVisible": true,
+  "noClippingOrOverlapObserved": true,
+  "newCardHasNoReuseOrOriginalProjectWording": true,
+  "summaryClearlyLabeledAsNewlyOrganizedExplanation": true,
+  "neighboringPortAndStartupShotsIntentionallyRetained": true
+}
