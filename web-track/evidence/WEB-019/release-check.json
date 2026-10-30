@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-30",
+  "packageSourceCommit": "4714a8131116332d9ef79a932e8da78060cb55e4",
+  "applicationSnapshot": "3982e5753b45638e236b897f0f21abbdf1c9f250",
+  "allowedExistingDocumentChanges": [
+    "README.md",
+    "web-track/README.md",
+    "web-track/chuangyuzhou/RELEASE-CHANGES.json",
+    "web-track/chuangyuzhou/SOURCE-MANIFEST.json",
+    "web-track/chuangyuzhou/web-deployment/README.md",
+    "web-track/materials/README.md"
+  ],
+  "unchangedProtectedExistingFiles": 481,
+  "v4Files": 8,
+  "checksumEntriesVerified": 7,
+  "currentEntryRelativeLinksValid": true,
+  "oldHistoryRetained": true,
+  "runtimeOrBusinessCodeChanged": false,
+  "oldArtifactsOverwritten": false,
+  "originalRepositoryWritten": false,
+  "newModelCalls": 0,
+  "externalUploadScope": "GitHub independent Web main only; netdisk upload and competition submission not performed"
+}
