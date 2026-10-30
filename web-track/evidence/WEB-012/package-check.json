@@ -1,0 +1,51 @@
+{
+  "recordId": "WEB-012",
+  "date": "2026-10-30",
+  "checkedAt": "2026-10-30T04:12:24.471377+00:00",
+  "sourceFolder": "releases/2026-10-29_创宇宙Web预指导提交_v1",
+  "outputFolder": "releases/2026-10-30_创宇宙Web网盘直接上传_v1",
+  "copiedFiles": [
+    {
+      "name": "01_创宇宙Web源码_4946975.zip",
+      "sha256": "6b5d34dd0fed3760f2c675c1718e0cacc73487c91cc213b3079af47239fbc148",
+      "bytes": 3615491,
+      "copiedByteIdentical": true
+    },
+    {
+      "name": "02_创宇宙Web技术文档_v3.pdf",
+      "sha256": "531f3b7e97cc9bba1985feba23e122275424408becd1544cd689fdfd6236699c",
+      "bytes": 547753,
+      "copiedByteIdentical": true
+    },
+    {
+      "name": "03_创宇宙演示视频.mp4",
+      "sha256": "ab2816d9bab7a6ce9196575b1d95619a094d8386761dfb235130eafba233ae81",
+      "bytes": 185681386,
+      "copiedByteIdentical": true
+    },
+    {
+      "name": "04_AI开发过程与验收证据.zip",
+      "sha256": "77b767ba49821471cc2bef05823957ef11bd2066a20c49b97c0bc619287eec02",
+      "bytes": 17173755,
+      "copiedByteIdentical": true
+    },
+    {
+      "name": "作品链接.txt",
+      "sha256": "7af720dee28f697b1e90979370bdd9ea1a1b656e92898a4efa769bed0db74726",
+      "bytes": 566,
+      "copiedByteIdentical": true
+    }
+  ],
+  "generatedFiles": [
+    "00_作品材料说明.txt",
+    "SHA256SUMS.txt"
+  ],
+  "files": 7,
+  "checksumRowsVerified": 6,
+  "totalBytes": 207020456,
+  "separateOfficialShortStatementExcluded": true,
+  "originalFilesPreserved": true,
+  "originalRepositoryWrite": false,
+  "cloudUploaded": false,
+  "modelCalls": 0
+}
