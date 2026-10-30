@@ -21,9 +21,11 @@
 - [应用源码与运行说明](chuangyuzhou/README.md)
 - [Web服务配置与部署示例](chuangyuzhou/web-deployment/README.md)、[Web转换记录](evidence/WEB-004.md)
 - [本目录工作规则](AGENTS.md)
-- [当前团队与仓库更新记录](evidence/WEB-003.md)、[模型配置记录](evidence/WEB-002.md)与[独立目录建立记录](evidence/WEB-001.md)
+- [团队信息确认记录（WEB-003历史阶段）](evidence/WEB-003.md)、[模型配置记录](evidence/WEB-002.md)与[独立目录建立记录](evidence/WEB-001.md)
 - [材料整理清单](materials/README.md)
-- [最新18页技术PDF v3与配套源稿](materials/2026-10-28_创宇宙Web技术文档_v3/README.md)、[保留的v2](materials/2026-10-28_创宇宙Web技术文档_v2/README.md)、[保留的v1](materials/2026-10-23_创宇宙Web技术文档_v1/README.md)、[独立仓库记录](evidence/WEB-007.md)
+- [作品介绍PDF：七项说明](materials/2026-10-30_创宇宙Web作品介绍文档_v1/README.md)
+- [v4提交材料与视频v2核对记录](evidence/WEB-019.md)
+- [最新18页技术PDF v4与配套源稿](materials/2026-10-30_创宇宙Web技术文档_v4/README.md)、[保留的v3](materials/2026-10-28_创宇宙Web技术文档_v3/README.md)、[保留的v2](materials/2026-10-28_创宇宙Web技术文档_v2/README.md)、[保留的v1](materials/2026-10-23_创宇宙Web技术文档_v1/README.md)、[独立仓库记录](evidence/WEB-007.md)
 - [Web真实AI验收与撤销修复](evidence/WEB-008.md)
 - [技术PDF v2与公开同步](evidence/WEB-009.md)
 - [运行指南及AI论证修正](evidence/WEB-010.md)
@@ -50,9 +52,9 @@ node tools/start.mjs
 
 已建立源码工作目录、运行隔离、文件校验和独立启动入口，补齐模型环境变量，完成团队及公开仓库信息。WEB-004增加local/web两种运行模式：本机使用保持兼容；Web模式通过固定HTTPS原点与同源反向代理运行，使用安全登录Cookie。浏览器启动检查和服务端同步相关提示已适配，原有业务功能保留。配置见[应用说明](chuangyuzhou/README.md#3-环境变量模板)及[Web服务指南](chuangyuzhou/web-deployment/README.md)。
 
-现有工程测试、真实模型记录和演示材料保留各自日期及版本。WEB-007建立独立仓库；WEB-008完成本机Web真实AI及修复后撤销回放，4次请求共48,730 token；全量920项、917通过、0失败、3跳过。WEB-010统一当前运行指南并另存18页PDF v3，补AI选型与优化依据、两类创新及案例矩阵，业务代码未改。v1/v2及旧视频原件保留，不重剪旧视频。真实域名TLS及官网最终提交仍按实际办理情况记录。
+现有工程测试、真实模型记录和演示材料保留各自日期及版本。WEB-007建立独立仓库；WEB-008完成本机Web真实AI及修复后撤销回放，4次请求共48,730 token；全量920项、917通过、0失败、3跳过。WEB-010统一当前运行指南并另存18页PDF v3，补AI选型与优化依据、两类创新及案例矩阵，业务代码未改。WEB-019另存技术PDF v4和视频v2，更新部署说明；旧版本原件保留。真实域名TLS及官网最终提交仍按实际办理情况记录。
 
-核心AI证据、当前运行指南和PDF v3已经具备；旧视频按用户确认沿用。官网上传字段、准确文件/视频链接及最终提交回执仍按实际核对。公网演示属于可选加分项，如选择提供，再验证目标域名TLS、服务可用性和专用体验账号。本版不声称已完成独立环境复现。
+核心AI证据、当前运行指南、技术PDF v4、作品介绍PDF v1和视频v2已经具备；v4网盘目录及各文件校验见WEB-019。官网上传字段、准确文件/视频链接及最终提交回执仍按实际核对。公网演示属于可选加分项，如选择提供，再验证目标域名TLS、服务可用性和专用体验账号。本版不声称已完成独立环境复现。
 
 ## Git 与材料
 

@@ -8,7 +8,10 @@
 
 - [Web源码与完整运行指南](web-track/chuangyuzhou/README.md)
 - [Web部署配置](web-track/chuangyuzhou/web-deployment/README.md)
-- [最新18页技术PDF v3及可编辑源稿](web-track/materials/2026-10-28_创宇宙Web技术文档_v3/README.md)
+- [作品介绍PDF：七项说明与真实界面图](web-track/materials/2026-10-30_创宇宙Web作品介绍文档_v1/README.md)
+- [最新18页技术PDF v4及可编辑源稿](web-track/materials/2026-10-30_创宇宙Web技术文档_v4/README.md)
+- [保留的技术PDF v3](web-track/materials/2026-10-28_创宇宙Web技术文档_v3/README.md)
+- [v4提交材料清单及视频v2核对记录](web-track/evidence/WEB-019.md)
 - [保留的技术PDF v2](web-track/materials/2026-10-28_创宇宙Web技术文档_v2/README.md)
 - [保留的技术PDF v1](web-track/materials/2026-10-23_创宇宙Web技术文档_v1/README.md)
 - [Web材料清单](web-track/materials/README.md)
@@ -30,9 +33,11 @@ node tools/start.mjs
 
 ## 源码、测试与材料
 
-当前应用材料阶段为WEB-010，业务实现延续WEB-008。312文件清单随目录保留；本轮只修正运行指南与完整性元数据，310个受保护文件未变。既有全量920项、917通过、0失败、3跳过；本机Web真实AI共4次请求、48,730 token，修复后撤销使用保存真实状态离线回放。PDF v3补清AI选型/优化依据、技术与应用创新及案例矩阵，v1/v2原件保留。视频按用户确认沿用既有MP4。工程回归、真实模型和离线回放分别记录，不由文档修正推导新效果数据。
+当前材料阶段为WEB-019（2026-10-30）：技术PDF v4采用中性准确表述；演示视频v2整理了历史反馈说明画面，旁白、字幕和功能演示保持；作品介绍PDF v1覆盖提交表七项要求。部署指南已明确WEB-008真实AI验证与离线撤销回放的范围。
 
-建议评审顺序：阅读PDF第5、7、12-13、16页 → 核对[WEB-008真实证据](web-track/evidence/WEB-008.md) → 按[运行指南](web-track/chuangyuzhou/README.md)启动并选择配置自己的模型连接。公开材料不含可直接使用的Key或已部署的评审账号。
+应用业务实现仍对应`c71c041`，本次仅更新部署说明及完整性元数据。312项清单可用启动前校验命令核对。既有全量920项、917通过、0失败、3跳过；本机Web真实AI共4次请求、48,730 token，修复后撤销采用保存真实状态的离线回放。这些结果保留原测试日期，本次文档与视频调整未新增业务测试或模型请求。
+
+建议评审顺序：阅读作品介绍PDF → 阅读技术PDF v4第5、7、12-13、16页 → 核对[WEB-008真实证据](web-track/evidence/WEB-008.md) → 按[运行指南](web-track/chuangyuzhou/README.md)启动并选择配置自己的模型连接。公开材料不含可直接使用的Key或已部署的评审账号。
 
 `web-track/`包含应用、技术PDF、Web阶段证据和维护工具。本仓库不携带作者账号、数据库、附件、初始化口令或Key，也不复制旧工作区未提交的材料。
 

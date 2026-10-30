@@ -1,0 +1,46 @@
+{
+  "recordId": "WEB-019",
+  "artifact": "releases/2026-10-30_创宇宙Web视频修订_v2/创宇宙_Web赛道演示视频_v2.mp4",
+  "sha256": "4927391077cd1a141695bd7a1fdb9c43d03e2ae475cb113f103b91b0fa9d78cf",
+  "reviewedAssets": [
+    "交互修订说明.png",
+    "反馈结果对照说明.png"
+  ],
+  "reviewedOutputFrames": [
+    8051,
+    8100,
+    8320,
+    8600,
+    8601,
+    8602,
+    9000,
+    9223,
+    9224,
+    9249,
+    9250,
+    9325,
+    9326,
+    9406,
+    9407,
+    9408,
+    11040
+  ],
+  "fullResolutionReviewedFrames": [
+    9000,
+    9326
+  ],
+  "findings": {
+    "targetHistoricalAssistantSummaryNoLongerShown": true,
+    "genuineUserFeedbackExcerptNotRewritten": true,
+    "newExplanationVisiblyLabeledAsCurrentSummary": true,
+    "originalComparisonApplicationPanelRetained": true,
+    "previous0430CardRetained": true,
+    "shortApplicationCloseUpRetained": true,
+    "readableTitlesAndNoTextClippingOnNewCards": true,
+    "originalSubtitlesRetained": true,
+    "noNewCredentialDisplay": true
+  },
+  "scopeNote": "Visual check covers both new cards, exact boundaries, the retained short close-up, and representative unchanged shots; full stream decoding and all unedited video-frame SSIM are recorded separately.",
+  "subtitleBandNote": "Original 980-1080 band retained, including a small non-text thumbnail edge at its top in one historical shot; subtitle wording and timing preserved.",
+  "oldPortsStartupAndLogo": "Retained as previously requested; not changed in this revision."
+}

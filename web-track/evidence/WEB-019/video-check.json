@@ -1,0 +1,184 @@
+{
+  "recordId": "WEB-019",
+  "sourceSha256": "34bd7d7454ebc003cc4cc0fc6c66282089477bc06a0e655bab9d7a386b4a5e98",
+  "output": "releases/2026-10-30_创宇宙Web视频修订_v2/创宇宙_Web赛道演示视频_v2.mp4",
+  "outputSha256": "4927391077cd1a141695bd7a1fdb9c43d03e2ae475cb113f103b91b0fa9d78cf",
+  "outputBytes": 69446788,
+  "durationSeconds": 413.942132,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 12417,
+  "ranges": [
+    [
+      8601,
+      9224
+    ],
+    [
+      9250,
+      9326
+    ],
+    [
+      9326,
+      9407
+    ]
+  ],
+  "editedFrameCount": 780,
+  "audioPacketHashes": {
+    "source": "SHA256=a7ce9a091cad4a2a0b0bcdfd1b82bddeb41d43736b9cee6092334591c663921f",
+    "output": "SHA256=a7ce9a091cad4a2a0b0bcdfd1b82bddeb41d43736b9cee6092334591c663921f"
+  },
+  "decodedAudioHashes": {
+    "source": "SHA256=8f934ddd85ce1d9d35f7446fcc8913e51296d8f26d2203521b6b19b26c0c552f",
+    "output": "SHA256=8f934ddd85ce1d9d35f7446fcc8913e51296d8f26d2203521b6b19b26c0c552f"
+  },
+  "fullAVDecode": "passed; error log empty",
+  "boundaryChecks": [
+    {
+      "frame": 8051,
+      "seconds": 268.3666666666667,
+      "edited": false,
+      "meanTopDifference": 0.06910501700680272,
+      "meanSubtitleDifference": 0.040762152777777776,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 8100,
+      "seconds": 270.0,
+      "edited": false,
+      "meanTopDifference": 0.06609091553287982,
+      "meanSubtitleDifference": 0.09621527777777777,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 8320,
+      "seconds": 277.3333333333333,
+      "edited": false,
+      "meanTopDifference": 0.0474015022675737,
+      "meanSubtitleDifference": 0.1312829861111111,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 8600,
+      "seconds": 286.6666666666667,
+      "edited": false,
+      "meanTopDifference": 0.030972045068027212,
+      "meanSubtitleDifference": 0.06875520833333333,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 8601,
+      "seconds": 286.7,
+      "edited": true,
+      "meanTopDifference": 200.38198731575963,
+      "meanSubtitleDifference": 0.054482638888888886,
+      "meanAssetDifference": 0.8943610048185942
+    },
+    {
+      "frame": 8602,
+      "seconds": 286.73333333333335,
+      "edited": true,
+      "meanTopDifference": 200.38483949829933,
+      "meanSubtitleDifference": 0.05509027777777778,
+      "meanAssetDifference": 0.8917874858276644
+    },
+    {
+      "frame": 9000,
+      "seconds": 300.0,
+      "edited": true,
+      "meanTopDifference": 198.79501594387756,
+      "meanSubtitleDifference": 0.12373090277777778,
+      "meanAssetDifference": 0.892281746031746
+    },
+    {
+      "frame": 9223,
+      "seconds": 307.43333333333334,
+      "edited": true,
+      "meanTopDifference": 213.1233944515306,
+      "meanSubtitleDifference": 0.16261284722222222,
+      "meanAssetDifference": 0.8924817531179138
+    },
+    {
+      "frame": 9224,
+      "seconds": 307.46666666666664,
+      "edited": false,
+      "meanTopDifference": 0.09331154336734694,
+      "meanSubtitleDifference": 0.13644444444444445,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 9249,
+      "seconds": 308.3,
+      "edited": false,
+      "meanTopDifference": 0.10303695436507937,
+      "meanSubtitleDifference": 0.13809027777777777,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 9250,
+      "seconds": 308.3333333333333,
+      "edited": true,
+      "meanTopDifference": 213.4884266935941,
+      "meanSubtitleDifference": 0.10008159722222222,
+      "meanAssetDifference": 0.8937480513038549
+    },
+    {
+      "frame": 9325,
+      "seconds": 310.8333333333333,
+      "edited": true,
+      "meanTopDifference": 213.19084431689342,
+      "meanSubtitleDifference": 0.10578645833333333,
+      "meanAssetDifference": 0.8909764739229025
+    },
+    {
+      "frame": 9326,
+      "seconds": 310.8666666666667,
+      "edited": true,
+      "meanTopDifference": 37.389026360544214,
+      "meanSubtitleDifference": 0.046732638888888886,
+      "meanAssetDifference": 1.0480762825963719
+    },
+    {
+      "frame": 9406,
+      "seconds": 313.53333333333336,
+      "edited": true,
+      "meanTopDifference": 37.39618923611111,
+      "meanSubtitleDifference": 0.04246354166666667,
+      "meanAssetDifference": 1.0420429421768707
+    },
+    {
+      "frame": 9407,
+      "seconds": 313.56666666666666,
+      "edited": false,
+      "meanTopDifference": 0.04317761479591837,
+      "meanSubtitleDifference": 0.029260416666666667,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 9408,
+      "seconds": 313.6,
+      "edited": false,
+      "meanTopDifference": 0.04554988662131519,
+      "meanSubtitleDifference": 0.028953125,
+      "meanAssetDifference": null
+    },
+    {
+      "frame": 11040,
+      "seconds": 368.0,
+      "edited": false,
+      "meanTopDifference": 0.06683708900226758,
+      "meanSubtitleDifference": 0.1227517361111111,
+      "meanAssetDifference": null
+    }
+  ],
+  "unmodifiedShotsSSIM": {
+    "frames": 11637,
+    "mean": 0.999424942253158,
+    "minimum": 0.996017,
+    "encodingIsLossy": true
+  },
+  "visualReview": "See visual-check.json after inspection of fresh final frames.",
+  "modelCalls": 0,
+  "sourceVideoUnchanged": true,
+  "renderSha256": "4927391077cd1a141695bd7a1fdb9c43d03e2ae475cb113f103b91b0fa9d78cf"
+}

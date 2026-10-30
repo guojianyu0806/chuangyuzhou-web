@@ -1,0 +1,144 @@
+{
+  "recordId": "WEB-019",
+  "pdf": "web-track/materials/2026-10-30_创宇宙Web技术文档_v4/创宇宙_Web赛道技术文档_v4.pdf",
+  "pdfSha256": "f00fd0ded90c9df525e83081a19b1b4831910e63a266e68936e71f4eef88e882",
+  "bytes": 547549,
+  "pages": 18,
+  "sourceCommit": "3982e5753b45638e236b897f0f21abbdf1c9f250",
+  "applicationRelease": "2026-10-30-web-doc-019",
+  "businessImplementationCommit": "c71c0411245943198ce1db9d6276e211b4a28c94",
+  "checks": {
+    "pages_18_within_30": true,
+    "all_pages_have_correct_footer": true,
+    "v4_version_and_date": true,
+    "fixed_source_and_release": true,
+    "ordered_members": true,
+    "correct_group_and_team": true,
+    "no_unwanted_terms": true,
+    "no_key_pattern": true,
+    "no_replacement_glyphs": true,
+    "test_metrics_retained": true,
+    "real_model_metrics_retained": true,
+    "failure_and_replay_boundary_retained": true,
+    "public_tls_and_user_effect_not_overstated": true,
+    "real_history_scope_retained": true,
+    "all_environment_fields": true,
+    "only_current_port": true,
+    "headings_all_present": true,
+    "under_100mb": true,
+    "all_text_inside_print_area": true,
+    "body_heading_cjk_fonts_embedded": true,
+    "fixed_source_link_present": true,
+    "independent_repo_and_rule_links": true,
+    "no_old_repo_link": true,
+    "builder_syntax_valid": true,
+    "source_commit_exists": true,
+    "old_v3_six_files_unchanged": true,
+    "introduction_pdf_unchanged": true
+  },
+  "textBounds": [
+    {
+      "page": 1,
+      "outOfBounds": 0
+    },
+    {
+      "page": 2,
+      "outOfBounds": 0
+    },
+    {
+      "page": 3,
+      "outOfBounds": 0
+    },
+    {
+      "page": 4,
+      "outOfBounds": 0
+    },
+    {
+      "page": 5,
+      "outOfBounds": 0
+    },
+    {
+      "page": 6,
+      "outOfBounds": 0
+    },
+    {
+      "page": 7,
+      "outOfBounds": 0
+    },
+    {
+      "page": 8,
+      "outOfBounds": 0
+    },
+    {
+      "page": 9,
+      "outOfBounds": 0
+    },
+    {
+      "page": 10,
+      "outOfBounds": 0
+    },
+    {
+      "page": 11,
+      "outOfBounds": 0
+    },
+    {
+      "page": 12,
+      "outOfBounds": 0
+    },
+    {
+      "page": 13,
+      "outOfBounds": 0
+    },
+    {
+      "page": 14,
+      "outOfBounds": 0
+    },
+    {
+      "page": 15,
+      "outOfBounds": 0
+    },
+    {
+      "page": 16,
+      "outOfBounds": 0
+    },
+    {
+      "page": 17,
+      "outOfBounds": 0
+    },
+    {
+      "page": 18,
+      "outOfBounds": 0
+    }
+  ],
+  "embeddedFonts": [
+    "/AAAAAA+DengXian",
+    "/AAAAAA+DengXian-Bold",
+    "/AAAAAB+DengXian",
+    "/AAAAAB+DengXian-Bold",
+    "/AAAAAC+DengXian",
+    "/AAAAAD+DengXian"
+  ],
+  "links": [
+    "https://github.com/guojianyu0806/chuangyuzhou-web",
+    "https://github.com/guojianyu0806/chuangyuzhou-web/tree/3982e5753b45638e236b897f0f21abbdf1c9f250/web-track/chuangyuzhou",
+    "https://www.boxuegu.com/matchTrack/detail/?id=10037"
+  ],
+  "visualReview": {
+    "performedThisRun": true,
+    "renderedPages": 18,
+    "dpi": 100,
+    "allPagesReviewed": true,
+    "enlargedChangedPages": [
+      4,
+      5,
+      12,
+      13,
+      17,
+      18
+    ],
+    "result": "No clipped body text, overlapping content or unintended page overflow observed."
+  },
+  "applicationTestsRerun": false,
+  "realModelCalled": false,
+  "protectedOldV3FileCount": 6
+}
