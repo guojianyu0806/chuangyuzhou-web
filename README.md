@@ -1,26 +1,19 @@
-# 创宇宙 · Web工作台
+# 创宇宙 · Web 工作台
 
-让每个人搭建自己的工作台。使用模块、空间和自定义方块组织资料、任务与日程，由AI伙伴查询、生成和修订方案，在审核确认后执行。
+创宇宙把资料、任务和日程放进一张可以自己搭建的画布。以准备期末复习为例，可以把课程空间、章节进度和复习清单放到同一主题。常用的清单留在画布上，其余卡片可以拖进「课程复习」收纳盒。
 
-本仓库专门维护第九届传智杯 **AI WEB网页开发挑战赛（10037）** 的创宇宙Web版。A组（211组），成员位次：**1 郭剑宇；2 单汝巨；3 栾健**；已报名。
+第九届传智杯 AI WEB 网页开发挑战赛（10037）。云南大学「我不是软蛋」队，队号 42988，A 组（211 组）。成员按位次为郭剑宇、单汝巨、栾健。
 
-## 使用入口
+## 从这里开始
 
-- [Web源码与完整运行指南](web-track/chuangyuzhou/README.md)
-- [Web部署配置](web-track/chuangyuzhou/web-deployment/README.md)
-- [作品介绍PDF：七项说明与真实界面图](web-track/materials/2026-10-30_创宇宙Web作品介绍文档_v1/README.md)
-- [最新18页技术PDF v4及可编辑源稿](web-track/materials/2026-10-30_创宇宙Web技术文档_v4/README.md)
-- [保留的技术PDF v3](web-track/materials/2026-10-28_创宇宙Web技术文档_v3/README.md)
-- [v4提交材料清单及视频v2核对记录](web-track/evidence/WEB-019.md)
-- [保留的技术PDF v2](web-track/materials/2026-10-28_创宇宙Web技术文档_v2/README.md)
-- [保留的技术PDF v1](web-track/materials/2026-10-23_创宇宙Web技术文档_v1/README.md)
-- [Web材料清单](web-track/materials/README.md)
-- [独立仓库与Git迁移记录](web-track/evidence/WEB-007.md)
-- [Web真实AI验收、用量与撤销修复](web-track/evidence/WEB-008.md)
-- [技术PDF v2与独立仓库同步记录](web-track/evidence/WEB-009.md)
-- [运行指南、AI论证与创新表达修正](web-track/evidence/WEB-010.md)
+- [作品介绍 PDF v4](web-track/materials/2026-11-16_创宇宙Web作品介绍文档_v4/创宇宙_Web赛道作品介绍文档_v4.pdf) 介绍如何搭建工作台、整理卡片，以及作品公开和优化的情况。
+- [技术文档 PDF v7](web-track/materials/2026-11-16_创宇宙Web技术文档_v7/创宇宙_Web赛道技术文档_v7.pdf) 说明网页架构、数据保存、AI 审核和加载优化。第 12–13 页对应两条预指导意见。
+- [验收导读](web-track/evidence/WEB-048/评审导读.md) 标出真实模型、模拟演示和性能测试各自的记录。完整证据见 v9 提交包内的 `04_AI开发过程与验收证据_v7.zip`。
+- 演示使用 v8 版，播放地址以正式表单第 7 项为准。
 
-安装Node.js ≥22.13，在仓库根目录运行：
+## 在本机打开
+
+安装 Node.js 22.13 或以上版本。在仓库根目录或源码 ZIP 解压后的 `chuangyuzhou-web` 目录执行：
 
 ```powershell
 cd web-track/chuangyuzhou
@@ -29,22 +22,22 @@ node tools/start.mjs --check
 node tools/start.mjs
 ```
 
-默认访问 `http://127.0.0.1:4396/`，基础应用不需要npm安装或前端构建。首次按应用指南初始化自己的账号。真实模型Key只在本实例运行环境配置，不放入Git。网站模式需同机HTTPS代理，当前没有完成公网部署。
+打开 `http://127.0.0.1:4396/`，按页面提示建立自己的工作台。基础功能无需安装 npm 依赖或配置模型。初始化口令的位置、环境变量和 HTTPS 代理配置见[应用运行指南](web-track/chuangyuzhou/README.md)。应用目录内的指南保留早期验收背景，正式提交版本以本页为准。当前评审方式为本地运行源码。
 
-## 源码、测试与材料
+进入「按主题查看」后，可以勾选卡片、生成分类建议，改完再确认。主题名会显示在原卡片上。要腾出画布空间时，可手动把选中的卡片拖进收纳盒，也可以单独拖出来。
 
-当前材料阶段为WEB-019（2026-10-30）：技术PDF v4采用中性准确表述；演示视频v2整理了历史反馈说明画面，旁白、字幕和功能演示保持；作品介绍PDF v1覆盖提交表七项要求。部署指南已明确WEB-008真实AI验证与离线撤销回放的范围。
+## 技术结构
 
-应用业务实现仍对应`c71c041`，本次仅更新部署说明及完整性元数据。312项清单可用启动前校验命令核对。既有全量920项、917通过、0失败、3跳过；本机Web真实AI共4次请求、48,730 token，修复后撤销采用保存真实状态的离线回放。这些结果保留原测试日期，本次文档与视频调整未新增业务测试或模型请求。
+浏览器端使用 HTML、CSS 和原生 JavaScript 模块实现画布与主题页。Node.js 负责登录、读写 SQLite 工作区和接入 DeepSeek。模型返回的建议在页面审核，用户确认后服务端才保存变更。运行依赖和可选文档解析依赖见[应用运行指南](web-track/chuangyuzhou/README.md)，环境变量见 [.env.example](web-track/chuangyuzhou/.env.example)。
 
-建议评审顺序：阅读作品介绍PDF → 阅读技术PDF v4第5、7、12-13、16页 → 核对[WEB-008真实证据](web-track/evidence/WEB-008.md) → 按[运行指南](web-track/chuangyuzhou/README.md)启动并选择配置自己的模型连接。公开材料不含可直接使用的Key或已部署的评审账号。
+## 测试记录
 
-`web-track/`包含应用、技术PDF、Web阶段证据和维护工具。本仓库不携带作者账号、数据库、附件、初始化口令或Key，也不复制旧工作区未提交的材料。
+- [真实 AI 归类](web-track/evidence/WEB-021.md) 使用三张测试卡片调用 DeepSeek 一次。模型将「校园创作展筹备」和「布展前核对」分到一组，阅读卡分到另一组。之后在浏览器完成改分类、跳过、确认、刷新和撤销。视频的课程复习案例使用示例建议演示同一操作。
+- [真实 AI 协同](web-track/evidence/WEB-008.md) 使用隔离工作区完成读书会的查询、修订、确认和保存。修复后的撤销用当次保存的状态离线验证。
+- [首屏性能对照](web-track/evidence/WEB-026.md) 在模拟限速下交替测了 12 对样本。首开配对差值中位数提前 90.2 毫秒，最后一个 JS 文件加载完提前 98.3 毫秒。后续 Edge 验收另测了等待提示、超时重试和本机缓存恢复，记录见验收证据包。
 
-## 完整Git记录
+正式提交包 v9 的应用源码固定在 [`a3d10a0`](https://github.com/guojianyu0806/chuangyuzhou-web/tree/a3d10a0b0d98ea390e62e28073efef1000b93dc0/web-track/chuangyuzhou)。该版本已有 951 项自动回归记录，其中 948 通过、3 跳过、0 失败。本次材料修订沿用这些记录，源码 ZIP 补入当前导读和文档。应用文件及 Git 源码历史保持原样。
 
-原主线203个提交以原SHA、作者、日期和父子关系保留，随后按真实时间追加Web独立整理提交。`codex/web-separation-baseline`固定在迁移前的`c0ac056`；`codex/yuzhou-historical-snapshots`保留25个早期版本快照提交，其补录性质和时间不改写。
+## Git 历史
 
-完整历史中的旧目录可以从上述基准分支查看，当前`main`只维护Web版。历史开发证据可查看[三条Prompt链](https://github.com/guojianyu0806/chuangyuzhou-web/tree/c0ac0564c5e93ea0ba9a7af001dc5e12b685754e/evidence/prompt-chains)。应用版本内说明及PDF v1中的原仓库地址属于编制时的历史引用，原件保持不变；当前仓库地址以本页为准，同一提交在本仓库的Git历史中仍可定位。
-
-后续Web开发使用本仓库和独立本地目录，原仓库不随本仓库同步更新。
+本仓库保留原主线 203 个提交的 SHA、作者、日期和父子关系，随后追加 Web 赛道开发记录。`codex/web-separation-baseline` 指向迁移基准 `c0ac056`，`codex/yuzhou-historical-snapshots` 保存 25 个有来源说明的早期快照。详见 [Web 仓库迁移记录](web-track/evidence/WEB-007.md)和[历史开发对话](https://github.com/guojianyu0806/chuangyuzhou-web/tree/c0ac0564c5e93ea0ba9a7af001dc5e12b685754e/evidence/prompt-chains)。
